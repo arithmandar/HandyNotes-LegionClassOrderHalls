@@ -26,6 +26,7 @@
 #@debug@
 ## Title: HandyNotes - Legion Class Order Halls
 ## Notes: Shows the NPC locations and major POIs in Class Order Halls
+#@end-debug@
 ## Author: arith
 ## Version: @project-version@
 ## RequiredDeps: HandyNotes
