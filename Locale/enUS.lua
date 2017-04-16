@@ -4,6 +4,7 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("HandyNotes_LegionClassOrderHalls", "enUS", true, true);
 
 if L then
+--@do-not-package@
 -- //////////////////////////
 -- Common
 -- //////////////////////////
@@ -271,4 +272,6 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recru
 L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>" -- 107994 
 L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>" -- 106460
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>" -- 110437
+--@end-do-not-package@
+--@localization(locale="enUS", format="lua_additive_table")@
 end
