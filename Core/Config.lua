@@ -58,6 +58,18 @@ config.options = {
             name = L["What to display"],
             inline = true,
             args = {
+				query_server = {
+					type = "toggle",
+					name = L["QUERY"],
+					desc = L["QUERY_DESC"],
+					order = 10,
+				},
+				show_note = {
+					type = "toggle",
+					name = L["SHOWNOTE"],
+					desc = L["SHOWNOTE_DESC"],
+					order = 11,
+				},
                 unhide = {
                     type = "execute",
                     name = L["Reset hidden nodes"],

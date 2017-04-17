@@ -6,6 +6,7 @@
 local _G = getfenv(0)
 -- Libraries
 local string = _G.string;
+local format = string.format
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -108,7 +109,16 @@ end
 
 local function handle_tooltip(tooltip, point)
     if point then
-        tooltip:AddLine(point.label)
+        if point.label then
+			if (point.npc and private.db.query_server) then
+                tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(point.npc))
+			else
+				tooltip:AddLine(point.label)
+            end
+		end
+        if (point.note and private.db.show_note) then
+            tooltip:AddLine(point.note, nil, nil, nil, true)
+        end
     else
         tooltip:SetText(UNKNOWN)
     end

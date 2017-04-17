@@ -33,6 +33,10 @@ L["The alpha transparency of the icons"] = "The alpha transparency of the icons"
 L["What to display"] = "What to display"
 L["Reset hidden nodes"] = "Reset hidden nodes"
 L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
+L["QUERY"] = "Query NPC name from server"
+L["QUERY_DESC"] = "Send query request to server to lookup NPC's localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached. "
+L["SHOWNOTE"] = "Show node's note"
+L["SHOWNOTE_DESC"] = "Show the node's additional notes when it's available"
 
 -- //////////////////////////
 -- Death Knight
