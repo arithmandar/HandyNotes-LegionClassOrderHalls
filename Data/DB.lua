@@ -28,6 +28,9 @@ local function GetLocaleLibBabble(typ)
 	return rettab;
 end
 local BZ = GetLocaleLibBabble("LibBabble-SubZone-3.0");
+local function mapFile(mapID)
+	return HandyNotes:GetMapIDtoMapFile(mapID)
+end
 
 local DB = {}
 
@@ -265,5 +268,29 @@ DB.points = {
 		[72953766] = { label=L["Weaponmaster Asvard <Warrior Trainer>"], npc=112577 },
 		[58318561] = { label=EJ_GetEncounterInfo(1489), npc=96469 },
 		[55988437] = { label=EJ_GetEncounterInfo(1485), npc=107987 },
+	},
+	[mapFile(1021)] = { -- Broken Shore
+		[44826132] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1015)] = { -- Azsuna
+		[47572808] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1014)] = { -- Dalaran
+		[75254723] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1018)] = { -- Val'sharah
+		[54707490] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1080)] = { -- Thunder Totem
+		[39794219] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1024)] = { -- Highmountain
+		[46115998] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1017)] = { -- Stormheim
+		[60175227] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
+	},
+	[mapFile(1033)] = { -- Suramar
+		[33084820] = { label=format(L["Portal to %s"], BZ["Skyhold"]), type="portal", class="WARRIOR" },
 	},
 }

@@ -1,4 +1,4 @@
-## Interface: 70200
+﻿## Interface: 70200
 #@non-debug@
 ## Title: @localization(locale="enUS", key="Title", namespace="ToC")@
 ## Title-deDE: @localization(locale="deDE", key="Title", namespace="ToC")@
@@ -25,7 +25,9 @@
 #@end-non-debug@
 #@debug@
 ## Title: HandyNotes - Legion Class Order Halls
+## Title-zhTW: HandyNotes - 職業大廳
 ## Notes: Shows the NPC locations and major POIs in Class Order Halls
+## Notes-zhTW: 顯示各職業大廳裡 NPC 與主要的 POI 的位置
 #@end-debug@
 ## Author: arith
 ## Version: @project-version@

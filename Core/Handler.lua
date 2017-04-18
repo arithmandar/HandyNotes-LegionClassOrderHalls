@@ -7,6 +7,11 @@ local _G = getfenv(0)
 -- Libraries
 local string = _G.string;
 local format = string.format
+local gsub = string.gsub
+local next = next
+local wipe = wipe
+local GameTooltip = GameTooltip
+local WorldMapTooltip = WorldMapTooltip
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -14,6 +19,7 @@ local FOLDER_NAME, private = ...
 
 local LibStub = _G.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
+local LH = LibStub("AceLocale-3.0"):GetLocale("HandyNotes", false)
 local AceDB = LibStub("AceDB-3.0")
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes")
@@ -22,80 +28,22 @@ addon.constants = private.constants;
 addon.constants.addon_name = private.addon_name;
 addon.Name = FOLDER_NAME;
 _G.HandyNotes_LegionClassOrderHalls = addon;
-local default_texture
-local icon_cache = {}
 
 -- //////////////////////////////////////////////////////////////////////////
-local cache_tooltip = CreateFrame("GameTooltip", private.addon_name.."Tooltip")
-cache_tooltip:AddFontStrings(
-    cache_tooltip:CreateFontString("$parentTextLeft1", nil, "GameTooltipText"),
-    cache_tooltip:CreateFontString("$parentTextRight1", nil, "GameTooltipText")
-)
-local name_cache = {}
-local function mob_name(id)
-    if not name_cache[id] then
-        -- this doesn't work with just clearlines and the setowner outside of this, and I'm not sure why
-        cache_tooltip:SetOwner(WorldFrame, "ANCHOR_NONE")
-        cache_tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
-        if cache_tooltip:IsShown() then
-            name_cache[id] = _G[private.addon_name.."TooltipTextLeft1"]:GetText()
-        end
-    end
-    return name_cache[id]
-end
-
-local atlas_texture = function(atlas, scale)
-	-- fileName, width, height, left, right, top, bottom, tilesHoriz, tilesVert = GetAtlasInfo("name")
-    local texture, _, _, left, right, top, bottom = GetAtlasInfo(atlas)
-    return {
-        icon = texture,
-        tCoordLeft = left,
-        tCoordRight = right,
-        tCoordTop = top,
-        tCoordBottom = bottom,
-        scale = scale or 1,
-    }
-end
-
-local function work_out_label(point)
-    local fallback
-	
-	-- if label exists, we will use label text first
-    if point.label then
-        return point.label
-    end
-	-- npc related function seems to be not working though...
-    if point.npc then
-        local name = mob_name(point.npc)
-        if name then
-            return name
-        end
-        fallback = 'npc:'..point.npc
-    end
-    return UNKNOWN
-end
-
 local function work_out_texture(point)
-    if (point.atlas) then
-        if not icon_cache[point.atlas] then
-            icon_cache[point.atlas] = atlas_texture(point.atlas)
-        end
-        return icon_cache[point.atlas]
-	-- use the pre-defined icon
-    elseif (point.type) then
+	if (point.type) then
         return private.constants.icon_texture[point.type]
 	-- use the icon specified in point data
 	elseif (point.icon) then
 		return point.icon
-    elseif not default_texture then
-        default_texture = private.constants.defaultIcon
+    else
+        return private.constants.defaultIcon
     end
-    return default_texture
 end
 
 local get_point_info = function(point)
     if point then
-        local label = work_out_label(point)
+        local label = point.label or UNKNOWN
         local icon = work_out_texture(point)
 
         return label, icon, point.scale
@@ -108,21 +56,21 @@ local get_point_info_by_coord = function(mapFile, coord)
 end
 
 local function handle_tooltip(tooltip, point)
-    if point then
-        if point.label then
+	if point then
+		if point.label then
 			if (point.npc and private.db.query_server) then
-                tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(point.npc))
+				tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(point.npc))
 			else
 				tooltip:AddLine(point.label)
-            end
+			end
 		end
-        if (point.note and private.db.show_note) then
-            tooltip:AddLine(point.note, nil, nil, nil, true)
-        end
-    else
-        tooltip:SetText(UNKNOWN)
-    end
-    tooltip:Show()
+		if (point.note and private.db.show_note) then
+			tooltip:AddLine(point.note, nil, nil, nil, true)
+		end
+	else
+		tooltip:SetText(UNKNOWN)
+	end
+	tooltip:Show()
 end
 
 local handle_tooltip_by_coord = function(tooltip, mapFile, coord)
@@ -144,16 +92,11 @@ function PluginHandler:OnEnter(mapFile, coord)
     handle_tooltip_by_coord(tooltip, mapFile, coord)
 end
 
-local function createWaypoint(button, mapFile, coord)
-    if TomTom then
-        local mapId = HandyNotes:GetMapFiletoMapID(mapFile)
-        local x, y = HandyNotes:getXY(coord)
-        TomTom:AddMFWaypoint(mapId, nil, x, y, {
-            title = get_point_info_by_coord(mapFile, coord),
-            persistent = nil,
-            minimap = true,
-            world = true
-        })
+function PluginHandler:OnLeave(mapFile, coord)
+    if self:GetParent() == WorldMapButton then
+        WorldMapTooltip:Hide()
+    else
+        GameTooltip:Hide()
     end
 end
 
@@ -164,6 +107,19 @@ end
 
 local function closeAllDropdowns()
     CloseDropDownMenus(1)
+end
+
+local function addTomTomWaypoint(button, mapFile, coord)
+    if TomTom then
+        local mapId = HandyNotes:GetMapFiletoMapID(mapFile)
+        local x, y = HandyNotes:getXY(coord)
+        TomTom:AddMFWaypoint(mapId, nil, x, y, {
+            title = get_point_info_by_coord(mapFile, coord),
+            persistent = nil,
+            minimap = true,
+            world = true
+        })
+    end
 end
 
 do
@@ -181,9 +137,9 @@ do
 
             if TomTom then
                 -- Waypoint menu item
-                info.text = "Create waypoint"
+                info.text = LH["Add this location to TomTom waypoints"]
                 info.notCheckable = 1
-                info.func = createWaypoint
+                info.func = addTomTomWaypoint
                 info.arg1 = currentZone
                 info.arg2 = currentCoord
                 UIDropDownMenu_AddButton(info, level)
@@ -217,14 +173,6 @@ do
             currentCoord = coord
             ToggleDropDownMenu(1, nil, HL_Dropdown, self, 0, 0)
         end
-    end
-end
-
-function PluginHandler:OnLeave(mapFile, coord)
-    if self:GetParent() == WorldMapButton then
-        WorldMapTooltip:Hide()
-    else
-        GameTooltip:Hide()
     end
 end
 
