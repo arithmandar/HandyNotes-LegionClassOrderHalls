@@ -20,6 +20,7 @@ L["Ramp to top floor"] = "Ramp to top floor"
 L["Champion Armaments"] = "Champion Armaments" -- Quest: 44228
 L["Travel to:"] = "Travel to:"
 L["Light's Heart"] = "Light's Heart"
+L["Portal"] = "Portal"
 
 -- //////////////////////////
 -- Configs

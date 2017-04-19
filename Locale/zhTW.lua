@@ -21,6 +21,7 @@ L["Ramp to top floor"] = "通往上層的斜坡"
 L["Champion Armaments"] = "勇士武裝"
 L["Travel to:"] = "旅行到："
 L["Light's Heart"] = "聖光之心"
+L["Portal"] = "傳送門"
 
 -- //////////////////////////
 -- Configs

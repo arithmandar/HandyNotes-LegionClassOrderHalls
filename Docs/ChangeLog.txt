@@ -3,6 +3,21 @@ $Id$
 Revision History:
 =================
 
+* v1.02 (Apr. 19, 2017)
+-----------------------
+- Added Warrior's jumping points
+- Added Mage's Teleportation Nexus Portals
+- Added Druid's portals in Emerald Dreamway and also in the destination including below:
+  - Grizzly Hills
+  - Feralas
+  - Moonglade
+  - Duskwood
+  - The Hinterlands
+  - Mount Hyjal
+- Added Hunter's Great Eagle flight points
+- Localization update:
+  - German (pas06)
+
 * v1.01 (Apr. 17, 2017)
 -----------------------
 - Added Tianji in Monk's order hall
