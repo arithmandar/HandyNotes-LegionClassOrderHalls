@@ -18,14 +18,17 @@ local constants = {}
 private.constants = constants
 
 constants.defaults = {
-    profile = {
-        show_npcs = true,
-        icon_scale = 1.5,
-        icon_alpha = 1.0,
+	profile = {
+		show_npcs = true,
+		icon_scale = 1.5,
+		icon_alpha = 1.0,
 		query_server = true,
 		show_note = true,
-   },
-   char = {
+		show_workorder = true,
+		show_repair = true,
+		show_classupgrade = true,
+	},
+	char = {
 		hidden = {
 			['*'] = {},
 		},

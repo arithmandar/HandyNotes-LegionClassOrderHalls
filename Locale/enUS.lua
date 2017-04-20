@@ -6,11 +6,15 @@ local L = AceLocale:NewLocale("HandyNotes_LegionClassOrderHalls", "enUS", true, 
 if L then
 --@do-not-package@
 -- //////////////////////////
--- Common
+-- Addon
 -- //////////////////////////
 L["ADDON_NAME"] = "HandyNotes - Class Order Halls"
 L["PLUGIN_NAME"] = "Class Order Halls"
 L["ADDON_DESC"] = "Shows the NPC locations and major POIs in Class Order Halls"
+
+-- //////////////////////////
+-- Common
+-- //////////////////////////
 L["Portal to %s"] = "Portal to %s"
 L["Training Dummies"] = "Training Dummies"
 L["Travel to %s"] = "Travel to %s"
@@ -21,6 +25,8 @@ L["Champion Armaments"] = "Champion Armaments" -- Quest: 44228
 L["Travel to:"] = "Travel to:"
 L["Light's Heart"] = "Light's Heart"
 L["Portal"] = "Portal"
+L["Artifact Research"] = "Artifact Research"
+L["Class Hall Quartermaster"] = "Class Hall Quartermaster"
 
 -- //////////////////////////
 -- Configs
@@ -140,6 +146,7 @@ L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "Ravandwyr <Senior Kirin Tor Appr
 L["Magister Varenthas <High Forgeguard>"] = "Magister Varenthas <High Forgeguard>" -- 109642
 L["Minuette <Armament Summoner>"] = "Minuette <Armament Summoner>" -- 110427
 L["Ari"] = "Ari" -- 109307
+L["Teleportation Nexus"] = "Teleportation Nexus"
 
 -- //////////////////////////
 -- Monk

@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.03 (Apr. 20, 2017)
+-----------------------
+- Corrected Amal'thazad and Calydus's NPC ID
+- Enhanced NPC name's looking-up
+- Added notes for Artifact Research, Class Hall Quartermaster
+
 * v1.02 (Apr. 19, 2017)
 -----------------------
 - Added Warrior's jumping points

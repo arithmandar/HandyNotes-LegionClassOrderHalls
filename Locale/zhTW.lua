@@ -22,6 +22,8 @@ L["Champion Armaments"] = "勇士武裝"
 L["Travel to:"] = "旅行到："
 L["Light's Heart"] = "聖光之心"
 L["Portal"] = "傳送門"
+L["Artifact Research"] = "神兵武器研究"
+L["Class Hall Quartermaster"] = "職業大廳軍需官"
 
 -- //////////////////////////
 -- Configs
@@ -141,6 +143,7 @@ L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "羅樊德威 <資深祈倫托學
 L["Magister Varenthas <High Forgeguard>"] = "博學者瓦倫薩斯 <熔爐護法>"
 L["Minuette <Armament Summoner>"] = "米略特 <武裝召喚師>" -- 110427
 L["Ari"] = "亞莉" -- 109307
+L["Teleportation Nexus"] = "傳送網路"
 
 -- //////////////////////////
 -- Monk
