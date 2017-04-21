@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.04 (Apr. 22, 2017)
+-----------------------
+- Localization update:
+  - German (pas06)
+  - Korean (yuk6196)
+
 * v1.03 (Apr. 20, 2017)
 -----------------------
 - Corrected Amal'thazad and Calydus's NPC ID
