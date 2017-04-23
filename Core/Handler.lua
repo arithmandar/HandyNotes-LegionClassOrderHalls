@@ -42,7 +42,19 @@ local function getCreatureNamebyID(id)
 end
 -- //////////////////////////////////////////////////////////////////////////
 local function work_out_texture(point)
-	if (point.type) then
+	local icon_key
+	
+	if (point.mission) then icon_key = "mission" end
+	if (point.recruiter or point.research or point.armaments) then icon_key = "workOrder" end
+	if (point.quartermaster) then icon_key = "repair" end
+	if (point.classUpgrade) then icon_key = "class" end
+	if (point.artifact and point.class) then icon_key = point.class end
+	if (point.portal) then icon_key = "portal" end
+	if (point.flight) then icon_key = "flight" end
+
+	if (icon_key and private.constants.icon_texture[icon_key]) then
+		return private.constants.icon_texture[icon_key]
+	elseif (point.type and private.constants.icon_texture[point.type]) then
 		return private.constants.icon_texture[point.type]
 	-- use the icon specified in point data
 	elseif (point.icon) then
@@ -216,16 +228,26 @@ do
 		return iter, private.DB.points[mapFile], nil
 	end
 	function private:ShouldShow(coord, point, currentZone, currentLevel)
-		if private.hidden[currentZone] and private.hidden[currentZone][coord] then
+		if (private.hidden[currentZone] and private.hidden[currentZone][coord]) then
 			return false
 		end
-		if point.level and point.level ~= currentLevel then
+		if (point.level and point.level ~= currentLevel) then
 			return false
 		end
 		-- this will check if any node is for specific class
-		if point.class and point.class ~= select(2, UnitClass("player")) then
+		if (point.class and point.class ~= select(2, UnitClass("player"))) then
 			return false
 		end
+		if (point.mission and not private.db.show_mission) then return false; end
+		if (point.recruiter and not private.db.show_recruiter) then return false; end
+		if (point.research and not private.db.show_research) then return false; end
+		if (point.armaments and not private.db.show_armaments) then return false; end
+		if (point.quartermaster and not private.db.show_quartermaster) then return false; end
+		if (point.classUpgrade and not private.db.show_classUpgrade) then return false; end
+		if (point.artifact and not private.db.show_artifact) then return false; end
+		if (point.portal and not private.db.show_portal) then return false; end
+		if (point.flight and not private.db.show_flight) then return false; end
+		if (point.others and not private.db.show_others) then return false; end
 		return true
 	end
 end

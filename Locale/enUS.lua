@@ -44,6 +44,27 @@ L["QUERY"] = "Query NPC name from server"
 L["QUERY_DESC"] = "Send query request to server to lookup NPC's localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached. "
 L["SHOWNOTE"] = "Show node's note"
 L["SHOWNOTE_DESC"] = "Show the node's additional notes when it's available"
+--L["SHOWMISSION"] = ORDER_HALL_MISSIONS
+L["SHOWMISSION_DESC"] = "Show the node where you can manage your class hall missions. "
+--L["SHOWRECRUITER"] = ""
+L["SHOWRECRUITER_DESC"] = "Show the recruiter's locations. "
+--L["SHOWRESEARCH"] = ""
+L["SHOWRESEARCH_DESC"] = "Show the class hall researcher's location. "
+--L["SHOARMAMENTS"] = ""
+L["SHOARMAMENTS_DESC"] = "Show the Champion Armaments NPC's location. "
+--L["SHOWQUARTERMASTER"] = ""
+L["SHOWQUARTERMASTER_DESC"] = "Show the class hall quartermaster's location. "
+--L["SHOWCLASSUPGRADE"] = ""
+L["SHOWCLASSUPGRADE_DESC"] = "Show the location of the NPC where you can learn for your call hall upgrade. "
+--L["SHOWARTIFACT"] = ""
+L["SHOWARTIFACT_DESC"] = "Show the location of your class hall forge where you can manage your artifact power. "
+--L["SHOWPORTAL"] = ""
+L["SHOWPORTAL_DESC"] = "Show portal's locations. "
+--L["SHOWFLIGHT"] = ""
+L["SHOWFLIGHT_DESC"] = "Show flight master's location. "
+L["SHOWOTHERS"] = "Others"
+L["SHOWOTHERS_DESC"] = "Show all the other POIs. "
+
 
 -- //////////////////////////
 -- Death Knight

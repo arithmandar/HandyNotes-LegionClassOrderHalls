@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.05 (Apr. 24, 2017)
+-----------------------
+- Added more flexible displaying options
+
 * v1.04 (Apr. 22, 2017)
 -----------------------
 - Localization update:
