@@ -120,11 +120,17 @@ config.options = {
 					desc = L["SHOWFLIGHT_DESC"],
 					order = 28,
 				},
+				show_lightsHeart = {
+					type = "toggle",
+					name = L["SHOWLIGHTSHEART"],
+					desc = L["SHOWLIGHTSHEART_DESC"],
+					order = 29,
+				},
 				show_others = {
 					type = "toggle",
 					name = L["SHOWOTHERS"],
 					desc = L["SHOWOTHERS_DESC"],
-					order = 29,
+					order = 30,
 				},
 				show_note = {
 					type = "toggle",

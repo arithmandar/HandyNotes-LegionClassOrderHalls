@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.07 (Apr. 27, 2017)
+-----------------------
+- Fixed class hall researcher's data config
+- Added Light's Heart location to Hunter and Shaman's halls
+- Added option to toggle Light's Heart displaying
+
 * v1.06 (Apr. 25, 2017)
 -----------------------
 - Localization update:

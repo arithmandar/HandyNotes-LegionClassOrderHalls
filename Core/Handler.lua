@@ -51,6 +51,7 @@ local function work_out_texture(point)
 	if (point.artifact and point.class) then icon_key = point.class end
 	if (point.portal) then icon_key = "portal" end
 	if (point.flight) then icon_key = "flight" end
+	if (point.lightsHeart) then icon_key = "lightsHeart" end
 
 	if (icon_key and private.constants.icon_texture[icon_key]) then
 		return private.constants.icon_texture[icon_key]
@@ -67,9 +68,12 @@ end
 local get_point_info = function(point)
 	if point then
 		local label = point.label or UNKNOWN
+		if (point.lightsHeart) then
+			if not point.scale then point.scale = 0.8 end
+		end
 		local icon = work_out_texture(point)
 
-		return label, icon, point.scale
+		return label, icon, point.scale, point.alpha
 	end
 end
 
@@ -94,7 +98,7 @@ local function handle_tooltip(tooltip, point)
 			end
 		end
 		if (point.note and private.db.show_note) then
-			tooltip:AddLine(point.note, nil, nil, nil, true)
+			tooltip:AddLine("("..point.note..")", nil, nil, nil, true)
 		end
 	else
 		tooltip:SetText(UNKNOWN)
@@ -213,9 +217,10 @@ do
 		local state, value = next(t, prestate)
 		while state do -- Have we reached the end of this zone?
 			if value and private:ShouldShow(state, value, currentZone, currentLevel) then
-				local label, icon, scale = get_point_info(value)
+				local label, icon, scale, alpha = get_point_info(value)
 				scale = (scale or 1) * (icon and icon.scale or 1) * private.db.icon_scale
-				return state, nil, icon, scale, private.db.icon_alpha
+				alpha = (alpha or 1) * (icon and icon.alpha or 1) * private.db.icon_alpha
+				return state, nil, icon, scale, alpha
 			end
 			state, value = next(t, state) -- Get next data
 		end
@@ -247,6 +252,7 @@ do
 		if (point.artifact and not private.db.show_artifact) then return false; end
 		if (point.portal and not private.db.show_portal) then return false; end
 		if (point.flight and not private.db.show_flight) then return false; end
+		if (point.lightsHeart and not private.db.show_lightsHeart) then return false; end
 		if (point.others and not private.db.show_others) then return false; end
 		return true
 	end

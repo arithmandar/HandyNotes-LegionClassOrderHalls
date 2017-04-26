@@ -59,6 +59,8 @@ L["SHOWARTIFACT_DESC"] = "顯示神兵武器升級熔爐位置。"
 L["SHOWPORTAL_DESC"] = "顯示傳送門位置。"
 --L["SHOWFLIGHT"] = ""
 L["SHOWFLIGHT_DESC"] = "顯示飛行管理員位置。"
+L["SHOWLIGHTSHEART"] = "顯示聖光之心"
+L["SHOWLIGHTSHEART_DESC"] = "顯示聖光之心位置。"
 L["SHOWOTHERS"] = "其他"
 L["SHOWOTHERS_DESC"] = "顯示所有其他的 POI 點。"
 

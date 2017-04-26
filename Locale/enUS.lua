@@ -62,6 +62,8 @@ L["SHOWARTIFACT_DESC"] = "Show the location of your class hall forge where you c
 L["SHOWPORTAL_DESC"] = "Show portal's locations. "
 --L["SHOWFLIGHT"] = ""
 L["SHOWFLIGHT_DESC"] = "Show flight master's location. "
+L["SHOWLIGHTSHEART"] = "Show Light's Heart"
+L["SHOWLIGHTSHEART_DESC"] = "Show the location of Light's Heart. "
 L["SHOWOTHERS"] = "Others"
 L["SHOWOTHERS_DESC"] = "Show all the other POIs. "
 

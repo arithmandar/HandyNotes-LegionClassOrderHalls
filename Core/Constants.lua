@@ -33,6 +33,7 @@ constants.defaults = {
 		show_artifact = true,
 		show_portal = true,
 		show_flight = true,
+		show_lightsHeart = true,
 		show_others = true,
 	},
 	char = {
