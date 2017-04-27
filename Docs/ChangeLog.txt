@@ -8,6 +8,8 @@ Revision History:
 - Fixed class hall researcher's data config
 - Added Light's Heart location to Hunter and Shaman's halls
 - Added option to toggle Light's Heart displaying
+- Localization update:
+  - Korean (yuk6196)
 
 * v1.06 (Apr. 25, 2017)
 -----------------------
