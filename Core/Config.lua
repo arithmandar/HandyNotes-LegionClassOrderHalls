@@ -19,19 +19,19 @@ private.config = config
 
 config.options = {
 	type = "group",
-	name = L["PLUGIN_NAME"],
-	desc = L["ADDON_DESC"],
+	name = addon.pluginName,
+	desc = addon.description,
 	get = function(info) return private.db[info[#info]] end,
 	set = function(info, v)
 		private.db[info[#info]] = v
-		addon:SendMessage("HandyNotes_NotifyUpdate", private.addon_name:gsub("HandyNotes_", ""))
+		addon:SendMessage("HandyNotes_NotifyUpdate", addon.pluginName)
 	end,
 	args = {
 		icon = {
 			type = "group",
 			name = L["Icon settings"],
 			inline = true,
-			order = 1,
+			order = 10,
 			args = {
 				desc = {
 					name = L["These settings control the look and feel of the icon."],
@@ -58,84 +58,97 @@ config.options = {
 			type = "group",
 			name = L["What to display"],
 			inline = true,
-			order = 2,
+			order = 20,
 			args = {
-				query_server = {
-					type = "toggle",
-					name = L["QUERY"],
-					desc = L["QUERY_DESC"],
-					order = 10,
+				desc = {
+					name = L["These settings control what type of icons to be displayed."],
+					type = "description",
+					order = 0,
 				},
 				show_mission = {
 					type = "toggle",
 					name = ORDER_HALL_MISSIONS,
-					desc = L["SHOWMISSION_DESC"],
+					desc = L["Show the node where you can manage your class hall missions."],
 					order = 20,
 				},
 				show_recruiter = {
 					type = "toggle",
 					name = CAPACITANCE_START_RECRUITMENT,
-					desc = L["SHOWRECRUITER_DESC"],
+					desc = L["Show the recruiter's locations."],
 					order = 21,
 				},
 				show_research = {
 					type = "toggle",
 					name = L["Artifact Research"],
-					desc = L["SHOWRESEARCH_DESC"],
+					desc = L["Show the class hall researcher's location."],
 					order = 22,
 				},
 				show_armaments = {
 					type = "toggle",
 					name = L["Champion Armaments"],
-					desc = L["SHOARMAMENTS_DESC"],
+					desc = L["Show the Champion Armaments NPC's location."],
 					order = 23,
 				},
 				show_quartermaster = {
 					type = "toggle",
 					name = L["Class Hall Quartermaster"],
-					desc = L["SHOWQUARTERMASTER_DESC"],
+					desc = L["Show the class hall quartermaster's location."],
 					order = 24,
 				},
 				show_classUpgrade = {
 					type = "toggle",
 					name = ORDER_HALL_TALENT_TITLE,
-					desc = L["SHOWCLASSUPGRADE_DESC"],
+					desc = L["Show the location of the NPC where you can learn for your class hall upgrade."],
 					order = 26,
 				},
 				show_artifact = {
 					type = "toggle",
 					name = ARTIFACT_POWER,
-					desc = L["SHOWARTIFACT_DESC"],
+					desc = L["Show the location of your class hall forge where you can manage your artifact power."],
 					order = 26,
 				},
 				show_portal = {
 					type = "toggle",
 					name = L["Portal"],
-					desc = L["SHOWPORTAL_DESC"],
+					desc = L["Show portal's locations."],
 					order = 27,
 				},
 				show_flight = {
 					type = "toggle",
 					name = MINIMAP_TRACKING_FLIGHTMASTER,
-					desc = L["SHOWFLIGHT_DESC"],
+					desc = L["Show flight master's location."],
 					order = 28,
 				},
 				show_lightsHeart = {
 					type = "toggle",
-					name = L["SHOWLIGHTSHEART"],
-					desc = L["SHOWLIGHTSHEART_DESC"],
+					name = L["Light's Heart"],
+					desc = L["Show the location of Light's Heart."],
 					order = 29,
 				},
 				show_others = {
 					type = "toggle",
-					name = L["SHOWOTHERS"],
-					desc = L["SHOWOTHERS_DESC"],
+					name = L["Others"],
+					desc = L["Show all the other POIs."],
 					order = 30,
+				},
+			},
+		},
+		plugin_config = {
+			type = "group",
+			name = L["AddOn Settings"],
+			inline = true,
+			order = 30,
+			args = {
+				query_server = {
+					type = "toggle",
+					name = L["Query from server"],
+					desc = L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."],
+					order = 10,
 				},
 				show_note = {
 					type = "toggle",
-					name = L["SHOWNOTE"],
-					desc = L["SHOWNOTE_DESC"],
+					name = L["Show note"],
+					desc = L["Show the node's additional notes when it's available."],
 					order = 40,
 				},
 				unhide = {

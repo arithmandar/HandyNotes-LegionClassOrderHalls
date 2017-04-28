@@ -8,9 +8,9 @@ if L then
 -- //////////////////////////
 -- Addon
 -- //////////////////////////
-L["ADDON_NAME"] = "HandyNotes - Class Order Halls"
-L["PLUGIN_NAME"] = "Class Order Halls"
-L["ADDON_DESC"] = "Shows the NPC locations and major POIs in Class Order Halls"
+L["HandyNotes - Class Order Halls"] = "HandyNotes - Class Order Halls"
+L["Class Order Halls"] = "Class Order Halls"
+L["Shows the NPC locations and major POIs in Class Order Halls"] = "Shows the NPC locations and major POIs in Class Order Halls"
 
 -- //////////////////////////
 -- Common
@@ -31,42 +31,36 @@ L["Class Hall Quartermaster"] = "Class Hall Quartermaster"
 -- //////////////////////////
 -- Configs
 -- //////////////////////////
+-- Icon Settings
 L["These settings control the look and feel of the icon."] = "These settings control the look and feel of the icon."
 L["Icon settings"] = "Icon settings"
 L["Icon Scale"] = "Icon Scale"
 L["The scale of the icons"] = "The scale of the icons"
 L["Icon Alpha"] = "Icon Alpha"
 L["The alpha transparency of the icons"] = "The alpha transparency of the icons"
+-- What to Display
 L["What to display"] = "What to display"
+L["These settings control what type of icons to be displayed."] = "These settings control what type of icons to be displayed on the WorldMap and Minimap."
+L["Show the node where you can manage your class hall missions."] = "Show the node where you can manage your class hall missions."
+L["Show the recruiter's locations."] = "Show the recruiter's locations."
+L["Show the class hall researcher's location."] = "Show the class hall researcher's location."
+L["Show the Champion Armaments NPC's location."] = "Show the Champion Armaments NPC's location."
+L["Show the class hall quartermaster's location."] = "Show the class hall quartermaster's location."
+L["Show the location of the NPC where you can learn for your class hall upgrade."] = "Show the location of the NPC where you can learn for your class hall upgrade."
+L["Show the location of your class hall forge where you can manage your artifact power."] = "Show the location of your class hall forge where you can manage your artifact power."
+L["Show portal's locations."] = "Show portal's locations."
+L["Show flight master's location."] = "Show flight master's location."
+L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
+L["Others"] = "Others"
+L["Show all the other POIs."] = "Show all the other POIs."
+-- AddOn Settings
+L["AddOn Settings"] = "AddOn Settings"
+L["Query from server"] = "Query from server"
+L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."
+L["Show note"] = "Show note"
+L["Show the node's additional notes when it's available."] = "Show the node's additional notes when it's available."
 L["Reset hidden nodes"] = "Reset hidden nodes"
 L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
-L["QUERY"] = "Query NPC name from server"
-L["QUERY_DESC"] = "Send query request to server to lookup NPC's localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached. "
-L["SHOWNOTE"] = "Show node's note"
-L["SHOWNOTE_DESC"] = "Show the node's additional notes when it's available"
---L["SHOWMISSION"] = ORDER_HALL_MISSIONS
-L["SHOWMISSION_DESC"] = "Show the node where you can manage your class hall missions. "
---L["SHOWRECRUITER"] = ""
-L["SHOWRECRUITER_DESC"] = "Show the recruiter's locations. "
---L["SHOWRESEARCH"] = ""
-L["SHOWRESEARCH_DESC"] = "Show the class hall researcher's location. "
---L["SHOARMAMENTS"] = ""
-L["SHOARMAMENTS_DESC"] = "Show the Champion Armaments NPC's location. "
---L["SHOWQUARTERMASTER"] = ""
-L["SHOWQUARTERMASTER_DESC"] = "Show the class hall quartermaster's location. "
---L["SHOWCLASSUPGRADE"] = ""
-L["SHOWCLASSUPGRADE_DESC"] = "Show the location of the NPC where you can learn for your call hall upgrade. "
---L["SHOWARTIFACT"] = ""
-L["SHOWARTIFACT_DESC"] = "Show the location of your class hall forge where you can manage your artifact power. "
---L["SHOWPORTAL"] = ""
-L["SHOWPORTAL_DESC"] = "Show portal's locations. "
---L["SHOWFLIGHT"] = ""
-L["SHOWFLIGHT_DESC"] = "Show flight master's location. "
-L["SHOWLIGHTSHEART"] = "Show Light's Heart"
-L["SHOWLIGHTSHEART_DESC"] = "Show the location of Light's Heart. "
-L["SHOWOTHERS"] = "Others"
-L["SHOWOTHERS_DESC"] = "Show all the other POIs. "
-
 
 -- //////////////////////////
 -- Death Knight

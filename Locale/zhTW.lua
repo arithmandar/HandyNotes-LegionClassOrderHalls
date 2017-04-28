@@ -7,11 +7,15 @@ if not L then return end
 if L then
 --@do-not-package@
 -- //////////////////////////
+-- Addon
+-- //////////////////////////
+L["HandyNotes - Class Order Halls"] = "HandyNotes - 職業大廳"
+L["Class Order Halls"] = "職業大廳"
+L["Shows the NPC locations and major POIs in Class Order Halls"] = "顯示各職業大廳裡 NPC 與主要的 POI 的位置"
+
+-- //////////////////////////
 -- Common
 -- //////////////////////////
-L["ADDON_NAME"] = "HandyNotes - 職業大廳"
-L["PLUGIN_NAME"] = "職業大廳"
-L["ADDON_DESC"] = "顯示各職業大廳裡 NPC 與主要的 POI 的位置"
 L["Portal to %s"] = "到%s的傳送門"
 L["Training Dummies"] = "訓練假人"
 L["Travel to %s"] = "前往%s"
@@ -28,41 +32,36 @@ L["Class Hall Quartermaster"] = "職業大廳軍需官"
 -- //////////////////////////
 -- Configs
 -- //////////////////////////
+-- Icon Settings
 L["These settings control the look and feel of the icon."] = "以下的設定控制了圖示的外觀及風格。"
 L["Icon settings"] = "圖示設定"
 L["Icon Scale"] = "圖示大小"
 L["The scale of the icons"] = "圖示的大小"
 L["Icon Alpha"] = "圖示透明度"
 L["The alpha transparency of the icons"] = "圖示的透明度"
+-- What to Display
 L["What to display"] = "哪些要被呈現"
+L["These settings control what type of icons to be displayed."] = "以下的設定控制了哪些類型的節點要被顯示。"
+L["Show the node where you can manage your class hall missions."] = "顯示職業大廳任務點。"
+L["Show the recruiter's locations."] = "顯示部隊招募員位置。"
+L["Show the class hall researcher's location."] = "顯示神兵武器研究員位置。"
+L["Show the Champion Armaments NPC's location."] = "顯示勇士武裝徵調員的位置。"
+L["Show the class hall quartermaster's location."] = "顯示職業大廳軍需官位置。"
+L["Show the location of the NPC where you can learn for your class hall upgrade."] = "顯示職業大廳升級官位置。"
+L["Show the location of your class hall forge where you can manage your artifact power."] = "顯示神兵武器升級熔爐位置。"
+L["Show portal's locations."] = "顯示傳送門位置。"
+L["Show flight master's location."] = "顯示飛行管理員位置。"
+L["Show the location of Light's Heart."] = "顯示聖光之心位置。"
+L["Others"] = "其他"
+L["Show all the other POIs."] = "顯示所有其他的 POI 點。"
+-- AddOn Settings
+L["AddOn Settings"] = "插件設定"
+L["Query from server"] = "從伺服器查詢"
+L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "向伺服器送出查詢本地化名稱的請求。首次查詢名稱時可能會顯示稍慢，一旦查詢到或該名稱已有快取時則會立即顯示。"
+L["Show note"] = "顯示說明"
+L["Show the node's additional notes when it's available."] = "當節點有額外說明時，同時顯示該說明。"
 L["Reset hidden nodes"] = "重設所有被隱藏的節點"
 L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "將您手動把 POI 設為隱藏的節點還原成全部都顯示。"
-L["QUERY"] = "從伺服器查詢 NPC 名稱"
-L["QUERY_DESC"] = "向伺服器送出查詢 NPC 名稱的請求。首次查詢名稱時可能會顯示稍慢，一旦查詢到或該名稱已有快取時則會立即顯示。"
-L["SHOWNOTE"] = "顯示節點說明"
-L["SHOWNOTE_DESC"] = "當節點有額外說明時，同時顯示該說明"
---L["SHOWMISSION"] = ORDER_HALL_MISSIONS
-L["SHOWMISSION_DESC"] = "顯示職業大廳任務點。"
---L["SHOWRECRUITER"] = ""
-L["SHOWRECRUITER_DESC"] = "顯示部隊招募員位置。"
---L["SHOWRESEARCH"] = ""
-L["SHOWRESEARCH_DESC"] = "顯示神兵武器研究員位置。"
---L["SHOARMAMENTS"] = ""
-L["SHOARMAMENTS_DESC"] = "顯示勇士武裝徵調員的位置。"
---L["SHOWQUARTERMASTER"] = ""
-L["SHOWQUARTERMASTER_DESC"] = "顯示職業大廳軍需官位置。"
---L["SHOWCLASSUPGRADE"] = ""
-L["SHOWCLASSUPGRADE_DESC"] = "顯示職業大廳升級官位置。"
---L["SHOWARTIFACT"] = ""
-L["SHOWARTIFACT_DESC"] = "顯示神兵武器升級熔爐位置。"
---L["SHOWPORTAL"] = ""
-L["SHOWPORTAL_DESC"] = "顯示傳送門位置。"
---L["SHOWFLIGHT"] = ""
-L["SHOWFLIGHT_DESC"] = "顯示飛行管理員位置。"
-L["SHOWLIGHTSHEART"] = "顯示聖光之心"
-L["SHOWLIGHTSHEART_DESC"] = "顯示聖光之心位置。"
-L["SHOWOTHERS"] = "其他"
-L["SHOWOTHERS_DESC"] = "顯示所有其他的 POI 點。"
 
 -- //////////////////////////
 -- Death Knight

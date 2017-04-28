@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.08 (Apr. xx, 2017)
+-----------------------
+- Re-organized config options
+- Standardize localization key style
+- Changed the registered name to HandyNotes
+
 * v1.07 (Apr. 27, 2017)
 -----------------------
 - Fixed class hall researcher's data config
