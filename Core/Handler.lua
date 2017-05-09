@@ -102,6 +102,12 @@ local function handle_tooltip(tooltip, point)
 				tooltip:AddLine(point.label)
 			end
 		end
+		if (point.spell) then
+			local spellName = GetSpellInfo(point.spell)
+			if (spellName) then
+				tooltip:AddLine(spellName, 1, 1, 1, true)
+			end
+		end
 		if (point.note and private.db.show_note) then
 			tooltip:AddLine("("..point.note..")", nil, nil, nil, true)
 		end

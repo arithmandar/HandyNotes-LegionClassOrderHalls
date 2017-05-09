@@ -218,7 +218,7 @@ DB.points = {
 		[39672151] = { portal=true, level=4, label=format(L["Knocker - %s"], BZ["One More Glass"]), class="ROGUE" },
 		[54293277] = { portal=true, level=10, label=format(L["Knocker - %s"], BZ["One More Glass"]), class="ROGUE" },
 	-- ground floor for other class
-		[75254723] = { portal=true, level=10, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[75254723] = { portal=true, level=10, spell=192085, class="WARRIOR" },
 		[72934115] = { flight=true, level=10, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
 	["MaelstromShaman"] = { -- Shaman
@@ -275,35 +275,35 @@ DB.points = {
 		[55988437] = { others=true, label=EJ_GetEncounterInfo(1485), npc=107987 },
 	},
 	[mapFile(1021)] = { -- Broken Shore
-		[44826132] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[44826132] = { portal=true, spell=192085, class="WARRIOR" },
 	},
 	[mapFile(1015)] = { -- Azsuna
-		[47572808] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[47572808] = { portal=true, spell=192085, class="WARRIOR" },
 		[57951515] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[50967990] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 		[24544312] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
 	[mapFile(1018)] = { -- Val'sharah
-		[54707490] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[54707490] = { portal=true, spell=192085, class="WARRIOR" },
 		[51255610] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[44321507] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
 	[mapFile(1080)] = { -- Thunder Totem
-		[39794219] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[39794219] = { portal=true, spell=192085, class="WARRIOR" },
 	},
 	[mapFile(1024)] = { -- Highmountain
-		[46115998] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[46115998] = { portal=true, spell=192085, class="WARRIOR" },
 		[31416381] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[56666776] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
 	[mapFile(1017)] = { -- Stormheim
-		[60175227] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[60175227] = { portal=true, spell=192085, class="WARRIOR" },
 		[31346051] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[45923577] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 		[38097919] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
 	[mapFile(1033)] = { -- Suramar
-		[33084820] = { portal=true, label=format(L["Portal to %s"], BZ["Skyhold"]), class="WARRIOR" },
+		[33084820] = { portal=true, spell=192085, class="WARRIOR" },
 		[33435044] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[70207105] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 		[41328282] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
