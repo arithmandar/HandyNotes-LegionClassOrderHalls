@@ -86,7 +86,7 @@ local get_point_info = function(point)
 end
 
 local get_point_info_by_coord = function(mapFile, coord)
-	mapFile = string.gsub(mapFile, "_terrain%d+$", "")
+	mapFile = gsub(mapFile, "_terrain%d+$", "")
 	return get_point_info(private.DB.points[mapFile] and private.DB.points[mapFile][coord])
 end
 
@@ -121,7 +121,7 @@ local function handle_tooltip(tooltip, point)
 end
 
 local handle_tooltip_by_coord = function(tooltip, mapFile, coord)
-	mapFile = string.gsub(mapFile, "_terrain%d+$", "")
+	mapFile = gsub(mapFile, "_terrain%d+$", "")
 	return handle_tooltip(tooltip, private.DB.points[mapFile] and private.DB.points[mapFile][coord])
 end
 
@@ -177,7 +177,7 @@ do
 			-- Create the title of the menu
 			info = Lib_UIDropDownMenu_CreateInfo()
 			info.isTitle 		= 1
-			info.text 		= "HandyNotes - " ..L["PLUGIN_NAME"]
+			info.text 		= "HandyNotes - " ..addon.pluginName
 			info.notCheckable 	= 1
 			Lib_UIDropDownMenu_AddButton(info, level)
 
@@ -192,20 +192,20 @@ do
 				Lib_UIDropDownMenu_AddButton(info, level)
 			end
 
-			 -- Hide menu item
+			-- Hide menu item
 			info = Lib_UIDropDownMenu_CreateInfo()
-			info.text		 = HIDE 
-			info.notCheckable = 1
-			info.func		 = hideNode
-			info.arg1		 = currentZone
-			info.arg2		 = currentCoord
+			info.text		= HIDE 
+			info.notCheckable 	= 1
+			info.func		= hideNode
+			info.arg1		= currentZone
+			info.arg2		= currentCoord
 			Lib_UIDropDownMenu_AddButton(info, level)
 
 			-- Close menu item
 			info = Lib_UIDropDownMenu_CreateInfo()
-			info.text		 = CLOSE
-			info.func		 = closeAllDropdowns
-			info.notCheckable = 1
+			info.text		= CLOSE
+			info.func		= closeAllDropdowns
+			info.notCheckable 	= 1
 			Lib_UIDropDownMenu_AddButton(info, level)
 		end
 	end
@@ -214,8 +214,8 @@ do
 	HL_Dropdown.initialize = generateMenu
 
 	function PluginHandler:OnClick(button, down, mapFile, coord)
-		if button == "RightButton" and not down then
-			currentZone = string.gsub(mapFile, "_terrain%d+$", "")
+		if (button == "RightButton" and not down) then
+			currentZone = gsub(mapFile, "_terrain%d+$", "")
 			currentCoord = coord
 			Lib_ToggleDropDownMenu(1, nil, HL_Dropdown, self, 0, 0)
 		end
@@ -241,7 +241,7 @@ do
 	end
 	function PluginHandler:GetNodes(mapFile, minimap, level)
 		currentLevel = level
-		mapFile = string.gsub(mapFile, "_terrain%d+$", "")
+		mapFile = gsub(mapFile, "_terrain%d+$", "")
 		currentZone = mapFile
 		return iter, private.DB.points[mapFile], nil
 	end
@@ -277,8 +277,6 @@ function addon:OnInitialize()
 	
 	private.db = self.db.profile
 	private.hidden = self.db.char.hidden
-
-	self.db.RegisterCallback(self, "OnProfileChanged", "Refresh")
 
 	-- Initialize database with HandyNotes
 	HandyNotes:RegisterPluginDB(addon.pluginName, PluginHandler, private.config.options)

@@ -3,7 +3,7 @@ $Id$
 Revision History:
 =================
 
-* v1.09 (May xx, 2017)
+* v1.09 (May 12, 2017)
 -----------------------
 - Replaced UIDropDown with NoTaint_UIDropDown
 - Added dungeonLevel information
