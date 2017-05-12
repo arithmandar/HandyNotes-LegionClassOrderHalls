@@ -13,6 +13,9 @@ private.addon_name = "HandyNotes_LegionClassOrderHalls"
 
 local LibStub = _G.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale(private.addon_name)
+private.descName = L["HandyNotes - Class Order Halls"]
+private.description = L["Shows the NPC locations and major POIs in Class Order Halls"]
+private.pluginName = L["Class Order Halls"]
 
 local constants = {}
 private.constants = constants
