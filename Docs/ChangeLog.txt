@@ -5,8 +5,11 @@ Revision History:
 
 * v1.09 (May xx, 2017)
 -----------------------
-- Replace UIDropDown with NoTaint_UIDropDown
-- Revise iter function to return dungeonLevel value
+- Replaced UIDropDown with NoTaint_UIDropDown
+- Added dungeonLevel information
+- Revised iter function to return dungeonLevel value, should now well supported Carbonite
+- Fixed typo of "Class Hall Quartermaster"
+- Changed class hall's mission icon to green button
 
 * v1.08 (May 09, 2017)
 -----------------------

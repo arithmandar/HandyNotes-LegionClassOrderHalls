@@ -46,6 +46,7 @@ constants.defaults = {
 	},
 }
 
+local OBJECTICONS = "Interface\\MINIMAP\\OBJECTICONS"
 constants.icon_texture = {
 	workOrder 	= "Interface\\GossipFrame\\WorkOrderGossipIcon",
 	mission 	= "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
@@ -71,13 +72,16 @@ constants.icon_texture = {
 	-- customized or extracted icons
 	lightsHeart 	= "Interface\\AddOns\\HandyNotes_LegionClassOrderHalls\\Images\\INV_jewelcrafting_taladitecrystal",
 	yellowButton 	= {
-			icon = "Interface\\MINIMAP\\OBJECTICONS",
+			icon = OBJECTICONS,
 			tCoordLeft = 0.125, tCoordRight = 0.25, tCoordTop = 0.5, tCoordBottom = 0.625 },
+	greenButton 	= { 
+			icon = OBJECTICONS,
+			tCoordLeft = 0.5, tCoordRight = 0.625, tCoordTop = 0, tCoordBottom = 0.125 },
 	mission = {
-			icon = "Interface\\MINIMAP\\OBJECTICONS",
+			icon = OBJECTICONS,
 			tCoordLeft = 0.625, tCoordRight = 0.75, tCoordTop = 0.5, tCoordBottom = 0.625 },
 	portal 		= {
-			icon = "Interface\\MINIMAP\\OBJECTICONS",
+			icon = OBJECTICONS,
 			tCoordLeft = 0.125, tCoordRight = 0.25, tCoordTop = 0.875, tCoordBottom = 1 },
 	MONK 		= "Interface\\AddOns\\HandyNotes_LegionClassOrderHalls\\Images\\artifactbook-monk-fists",
 }

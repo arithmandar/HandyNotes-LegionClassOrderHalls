@@ -49,7 +49,7 @@ end
 local function work_out_texture(point)
 	local icon_key
 	
-	if (point.mission) then icon_key = "mission" end
+	if (point.mission) then icon_key = "greenButton" end
 	if (point.recruiter or point.research or point.armaments) then icon_key = "workOrder" end
 	if (point.quartermaster) then icon_key = "repair" end
 	if (point.classUpgrade) then icon_key = "class" end
@@ -75,6 +75,9 @@ local get_point_info = function(point)
 		local label = point.label or UNKNOWN
 		if (point.lightsHeart) then
 			if not point.scale then point.scale = 0.8 end
+		end
+		if (point.others) then
+			if not point.scale then point.scale = 0.6 end
 		end
 		local icon = work_out_texture(point)
 
