@@ -200,6 +200,7 @@ L["Lord Maxwell Tyrosus"] = "Lord Maxwell Tyrosus" -- 90259
 L["Commander Born <Silver Hand Officer Recruiter>"] = "Commander Born <Silver Hand Officer Recruiter>" -- 106448
 L["Valgar Highforge <Grand Smith of the Order>"] = "Valgar Highforge <Grand Smith of the Order>" -- 90261
 L["Lord Irulon Trueblade"] = "Lord Irulon Trueblade" -- 99947
+L["Charger Saddle"] = "Charger Saddle"
 
 -- //////////////////////////
 -- Priest
@@ -302,5 +303,5 @@ L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class H
 L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>" -- 106460
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>" -- 110437
 --@end-do-not-package@
---@localization(locale="enUS", format="lua_additive_table")@
+--@localization(locale="enUS", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore", namespace="")@
 end

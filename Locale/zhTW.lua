@@ -303,5 +303,5 @@ L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職
 L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>"
 --@end-do-not-package@
---@localization(locale="zhTW", format="lua_additive_table")@
+--@localization(locale="zhTW", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore", namespace="")@
 end

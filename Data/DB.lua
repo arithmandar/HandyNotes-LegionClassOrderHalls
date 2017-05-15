@@ -178,6 +178,7 @@ DB.points = {
 		[52476919] = { lightsHeart=true, dungeonLevel=20, label=L["Light's Heart"], },
 		[52297812] = { others=true, dungeonLevel=20, label=L["Lord Grayson Shadowbreaker <Mission Specialist>"], npc=90250 },
 		[70992844] = { others=true, dungeonLevel=20, label=L["Valgar Highforge <Grand Smith of the Order>"], npc=90261 },
+		[39197445] = { others=true, dungeonLevel=20, label=L["Charger Saddle"], object=252389 },
 	},
 	["NetherlightTemple"] = { -- Priest, Netherlight Temple
 		[49704720] = { mission=true, dungeonLevel=1, label=L["Command Map"], note=ORDER_HALL_MISSIONS },

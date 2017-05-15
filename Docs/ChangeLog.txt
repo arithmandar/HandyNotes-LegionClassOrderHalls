@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.10 (May xx, 2017)
+-----------------------
+- Added Charger Saddle in Paladin's hall
+
 * v1.09 (May 12, 2017)
 -----------------------
 - Replaced UIDropDown with NoTaint_UIDropDown
