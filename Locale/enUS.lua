@@ -82,9 +82,6 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "Korgaz Deadaxe <Ebon Soldier Rec
 L["Salanar the Horseman"] = "Salanar the Horseman" -- 111480
 L["Thassarian"] = "Thassarian" -- 93456
 L["King Thoras Trollbane"] = "King Thoras Trollbane" -- 113419
-L["Terric the Illuminator"] = "Terric the Illuminator"
-L["Required Grand Crusade order advancement"] = "Required Grand Crusade order advancement"
-L["Silver Hand Orders"] = "Silver Hand Orders"
 
 -- //////////////////////////
 -- Demon Hunter
@@ -204,9 +201,11 @@ L["Commander Born <Silver Hand Officer Recruiter>"] = "Commander Born <Silver Ha
 L["Valgar Highforge <Grand Smith of the Order>"] = "Valgar Highforge <Grand Smith of the Order>" -- 90261
 L["Lord Irulon Trueblade"] = "Lord Irulon Trueblade" -- 99947
 L["Charger Saddle"] = "Charger Saddle"
-L["Terric the Illuminator"] = "Terric the Illuminator"
-L["Required Grand Crusade order advancement"] = "Required Grand Crusade order advancement"
+L["Terric the Illuminator"] = "Terric the Illuminator" -- 111772
+L["Requires Grand Crusade order advancement"] = "Requires Grand Crusade order advancement"
 L["Silver Hand Orders"] = "Silver Hand Orders"
+L["Requires Silver Hand Crusaders order advancement"] = "Requires Silver Hand Crusaders order advancement"
+L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "Crusader Kern <Silver Hand Crusader Recruiter>" -- 120146
 
 -- //////////////////////////
 -- Priest
@@ -308,6 +307,11 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recru
 L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>" -- 107994 
 L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>" -- 106460
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>" -- 110437
+L["Requires Val'kyr Call order advancement"] = "Requires Val'kyr Call order advancement"
+L["Horn of War"] = "Horn of War"
+L["Matilda Skoptidottir"] = "Matilda Skoptidottir" -- 111774
+L["Requires Strike Hard order advancement"] = "Requires Strike Hard order advancement"
+L["Sharak Tor <Recruiter>"] = "Sharak Tor <Recruiter>" -- 106461
 --@end-do-not-package@
 --@localization(locale="enUS", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore", namespace="")@
 end

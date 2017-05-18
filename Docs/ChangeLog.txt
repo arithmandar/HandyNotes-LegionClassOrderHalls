@@ -3,9 +3,10 @@ $Id$
 Revision History:
 =================
 
-* v1.10 (May xx, 2017)
+* v1.10 (May 19, 2017)
 -----------------------
-- Added Charger Saddle and Terric the Illuminator in Paladin's hall
+- Added Charger Saddle, Crusader Kern and Terric the Illuminator in Paladin's order hall
+- Added Matilda Skoptidottir and Sharak Tor in Warrior's order hall
 
 * v1.09 (May 12, 2017)
 -----------------------

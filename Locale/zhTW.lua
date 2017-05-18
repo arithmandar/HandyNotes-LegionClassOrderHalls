@@ -83,9 +83,6 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "寇格茲·亡斧 <黯刃士兵�
 L["Salanar the Horseman"] = "『騎士』撒拉納"
 L["Thassarian"] = "薩沙理安"
 L["King Thoras Trollbane"] = "索拉斯·托爾貝恩國王"
-L["Terric the Illuminator"] = "『高風亮節』泰瑞克"
-L["Required Grand Crusade order advancement"] = "需要「壯大遠征」的職業大廳升級"
-L["Silver Hand Orders"] = "白銀之手命令"
 
 -- //////////////////////////
 -- Demon Hunter
@@ -205,6 +202,11 @@ L["Commander Born <Silver Hand Officer Recruiter>"] = "指揮官伯恩 <白銀�
 L["Valgar Highforge <Grand Smith of the Order>"] = "瓦爾加·高爐 <白銀之手大鐵匠>" -- 90261
 L["Lord Irulon Trueblade"] = "埃盧隆·真刃領主" -- 99947
 L["Charger Saddle"] = "戰騎馬鞍"
+L["Terric the Illuminator"] = "『高風亮節』泰瑞克"
+L["Requires Grand Crusade order advancement"] = "需要「壯大遠征」的職業大廳升級"
+L["Silver Hand Orders"] = "白銀之手命令"
+L["Requires Silver Hand Crusaders order advancement"] = "需要「白銀之手十字軍」的職業大廳升級"
+L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "十字軍珂恩 <白銀之手十字軍招募員>" -- 120146
 
 -- //////////////////////////
 -- Priest
@@ -306,6 +308,11 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <�
 L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級官>"
 L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>"
+L["Requires Val'kyr Call order advancement"] = "需要「華爾琪的呼喚」的職業大廳升級"
+L["Horn of War"] = "戰爭號角"
+L["Matilda Skoptidottir"] = "瑪蒂達·斯寇提多特" -- 111774
+L["Requires Strike Hard order advancement"] = "需要「強擊部隊」的職業大廳升級"
+L["Sharak Tor <Recruiter>"] = "夏拉托 <招募員>" -- 106461
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore", namespace="")@
 end
