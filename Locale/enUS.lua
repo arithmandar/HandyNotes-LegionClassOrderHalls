@@ -311,7 +311,8 @@ L["Requires Val'kyr Call order advancement"] = "Requires Val'kyr Call order adva
 L["Horn of War"] = "Horn of War"
 L["Matilda Skoptidottir"] = "Matilda Skoptidottir" -- 111774
 L["Requires Strike Hard order advancement"] = "Requires Strike Hard order advancement"
-L["Sharak Tor <Recruiter>"] = "Sharak Tor <Recruiter>" -- 106461
+L["Sharak Tor <Recruiter>"] = "Sharak Tor <Recruiter>" -- 106461, horde
+L["Matthew Glensorrow <Recruiter>"] = "Matthew Glensorrow <Recruiter>" -- 120077, alliance
 --@end-do-not-package@
 --@localization(locale="enUS", format="lua_additive_table", handle-subnamespaces="none", handle-unlocalized="ignore", namespace="")@
 end
