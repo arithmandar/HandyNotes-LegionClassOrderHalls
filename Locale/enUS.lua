@@ -82,6 +82,9 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "Korgaz Deadaxe <Ebon Soldier Rec
 L["Salanar the Horseman"] = "Salanar the Horseman" -- 111480
 L["Thassarian"] = "Thassarian" -- 93456
 L["King Thoras Trollbane"] = "King Thoras Trollbane" -- 113419
+L["Terric the Illuminator"] = "Terric the Illuminator"
+L["Required Grand Crusade order advancement"] = "Required Grand Crusade order advancement"
+L["Silver Hand Orders"] = "Silver Hand Orders"
 
 -- //////////////////////////
 -- Demon Hunter
@@ -201,6 +204,9 @@ L["Commander Born <Silver Hand Officer Recruiter>"] = "Commander Born <Silver Ha
 L["Valgar Highforge <Grand Smith of the Order>"] = "Valgar Highforge <Grand Smith of the Order>" -- 90261
 L["Lord Irulon Trueblade"] = "Lord Irulon Trueblade" -- 99947
 L["Charger Saddle"] = "Charger Saddle"
+L["Terric the Illuminator"] = "Terric the Illuminator"
+L["Required Grand Crusade order advancement"] = "Required Grand Crusade order advancement"
+L["Silver Hand Orders"] = "Silver Hand Orders"
 
 -- //////////////////////////
 -- Priest

@@ -169,6 +169,7 @@ DB.points = {
 		[53427865] = { mission=true, dungeonLevel=20, label=ADVENTURE_MAP_TITLE, note=ORDER_HALL_MISSIONS },
 		[53295617] = { recruiter=true, dungeonLevel=20, label=L["Commander Ansela <Silver Hand Recruiter>"], npc=106447, note=CAPACITANCE_START_RECRUITMENT },
 		[58893898] = { recruiter=true, dungeonLevel=20, label=L["Commander Born <Silver Hand Officer Recruiter>"], npc=106448, note=CAPACITANCE_START_RECRUITMENT },
+		[75103456] = { recruiter=true, dungeonLevel=20, label=L["Terric the Illuminator"], npc=111772, note=L["Silver Hand Orders"].."\n"..L["Required Grand Crusade order advancement"] },
 		[37775731] = { research=true, dungeonLevel=20, label=L["Sister Elda <Keeper of the Ancient Tomes>"], npc=91190, note=L["Artifact Research"] },
 		[54044961] = { armaments=true, dungeonLevel=20, label=L["Kristoff <Armaments Requisitioner>"], npc=110434, note=L["Champion Armaments"] },
 		[39895652] = { classUpgrade=true, dungeonLevel=20, label=L["Sir Alamande Graythorn <Class Hall Upgrades>"], npc=109901, note=ORDER_HALL_TALENT_TITLE  },
@@ -272,8 +273,8 @@ DB.points = {
 		[58332497] = { others=true, dungeonLevel=1, label=L["Aerylia <Stormflight Master>"], npc=96679, type="yellowButton" },
 		[59851314] = { others=true, dungeonLevel=1, label=L["Skyseer Ghrent"], npc=100635 },
 		[72953766] = { others=true, dungeonLevel=1, label=L["Weaponmaster Asvard <Warrior Trainer>"], npc=112577 },
-		[58318561] = { others=true, dungeonLevel=1, label=EJ_GetEncounterInfo(1489), npc=96469 },
-		[55988437] = { others=true, dungeonLevel=1, label=EJ_GetEncounterInfo(1485), npc=107987 },
+		[58318561] = { others=true, dungeonLevel=1, label=L["Odyn"], npc=96469 },
+		[55988437] = { others=true, dungeonLevel=1, label=L["Hymdall"], npc=107987 },
 	},
 	[mapFile(1021)] = { -- Broken Shore
 		[44826132] = { portal=true, spell=192085, class="WARRIOR" },

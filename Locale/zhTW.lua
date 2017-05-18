@@ -83,6 +83,9 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "寇格茲·亡斧 <黯刃士兵�
 L["Salanar the Horseman"] = "『騎士』撒拉納"
 L["Thassarian"] = "薩沙理安"
 L["King Thoras Trollbane"] = "索拉斯·托爾貝恩國王"
+L["Terric the Illuminator"] = "『高風亮節』泰瑞克"
+L["Required Grand Crusade order advancement"] = "需要「壯大遠征」的職業大廳升級"
+L["Silver Hand Orders"] = "白銀之手命令"
 
 -- //////////////////////////
 -- Demon Hunter
@@ -201,6 +204,7 @@ L["Lord Maxwell Tyrosus"] = "麥斯威爾·泰羅索斯領主"
 L["Commander Born <Silver Hand Officer Recruiter>"] = "指揮官伯恩 <白銀之手軍官招募員>"
 L["Valgar Highforge <Grand Smith of the Order>"] = "瓦爾加·高爐 <白銀之手大鐵匠>" -- 90261
 L["Lord Irulon Trueblade"] = "埃盧隆·真刃領主" -- 99947
+L["Charger Saddle"] = "戰騎馬鞍"
 
 -- //////////////////////////
 -- Priest

@@ -5,7 +5,7 @@ Revision History:
 
 * v1.10 (May xx, 2017)
 -----------------------
-- Added Charger Saddle in Paladin's hall
+- Added Charger Saddle and Terric the Illuminator in Paladin's hall
 
 * v1.09 (May 12, 2017)
 -----------------------
