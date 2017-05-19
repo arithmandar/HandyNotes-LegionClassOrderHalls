@@ -3,6 +3,14 @@ $Id$
 Revision History:
 =================
 
+* v1.11 (May xx, 2017)
+-----------------------
+- Added Eran Droll to Deathknight's order hall
+- Added Tormented Shivarra to Demonhunter's order hall
+- Added Shalorn Star to Druid's order hall
+- Added Nighthuntress Silus to Hunter's order hall
+- Added Guardian Alar to Mage's order hall
+
 * v1.10 (May 19, 2017)
 -----------------------
 - Added Charger Saddle, Crusader Kern and Terric the Illuminator in Paladin's order hall

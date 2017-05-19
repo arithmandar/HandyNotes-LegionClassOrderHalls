@@ -82,6 +82,10 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "Korgaz Deadaxe <Ebon Soldier Rec
 L["Salanar the Horseman"] = "Salanar the Horseman" -- 111480
 L["Thassarian"] = "Thassarian" -- 93456
 L["King Thoras Trollbane"] = "King Thoras Trollbane" -- 113419
+L["Requires Frost Wyrm work order advancement"] = "Requires Frost Wyrm work order advancement"
+L["Frost Crux"] = "Frost Crux"
+L["Requires Frost and Death order advancement"] = "Requires Frost and Death order advancement"
+L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "Eran Droll <Ebon Knight Frostreavers Recruiter>" -- 120135
 
 -- //////////////////////////
 -- Demon Hunter
@@ -104,6 +108,10 @@ L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Class Hall 
 L["Belath Dawnblade <Illidari>"] = "Belath Dawnblade <Illidari>" -- 108782
 L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>" -- 103760
 L["Slitesh <Armaments Requisitioner>"] = "Slitesh <Armaments Requisitioner>" -- 110433
+L["Requires Fel Hammer's Wrath order advancement"] = "Requires Fel Hammer's Wrath order advancement"
+L["Empowered Rift Core"] = "Empowered Rift Core"
+L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
+L["Tormented Shivarra <Shivarra Recruiter>"] = "Tormented Shivarra <Shivarra Recruiter>" -- 120140
 
 -- //////////////////////////
 -- Druid
@@ -122,6 +130,8 @@ L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist
 L["Zen'kiki"] = "Zen'kiki" -- 98784
 L["Yaris Darkclaw <Recruiter>"] = "Yaris Darkclaw <Recruiter>" -- 106442
 L["Mylune"] = "Mylune" -- 113525
+L["Requires Wardens of the Grove order advancement"] = "Requires Wardens of the Grove order advancement"
+L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "Shalorn Star <Dreamgrove Warden Recruiter>" -- 108391
 
 -- //////////////////////////
 -- Hunter
@@ -142,6 +152,8 @@ L["Great Eagle"] = "Great Eagle" -- 108552
 L["Ogdrul <The Seeker>"] = "Ogdrul <The Seeker>" -- 113688
 L["Image of Mimiron"] = "Image of Mimiron" -- 110424
 L["Berger the Steadfast <Champion Armaments>"] = "Berger the Steadfast <Champion Armaments>" -- 110412
+L["Requires Born of the Night order advancement"] = "Requires Born of the Night order advancement"
+L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "Nighthuntress Silus <Nightborne Hunters Recruiter>" -- 106445
 
 -- //////////////////////////
 -- Mage
@@ -164,6 +176,8 @@ L["Magister Varenthas <High Forgeguard>"] = "Magister Varenthas <High Forgeguard
 L["Minuette <Armament Summoner>"] = "Minuette <Armament Summoner>" -- 110427
 L["Ari"] = "Ari" -- 109307
 L["Teleportation Nexus"] = "Teleportation Nexus"
+L["Requires Guardians of the Kirin Tor order advancement"] = "Requires Guardians of the Kirin Tor order advancement"
+L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "Guardian Alar <Kirin Tor Guardians Recruiter>" -- 106434
 
 -- //////////////////////////
 -- Monk

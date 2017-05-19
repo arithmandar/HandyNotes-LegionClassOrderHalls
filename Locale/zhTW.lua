@@ -83,6 +83,10 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "寇格茲·亡斧 <黯刃士兵�
 L["Salanar the Horseman"] = "『騎士』撒拉納"
 L["Thassarian"] = "薩沙理安"
 L["King Thoras Trollbane"] = "索拉斯·托爾貝恩國王"
+L["Requires Frost Wyrm work order advancement"] = "需要「冰霜巨龍」的職業大廳升級"
+L["Frost Crux"] = "冰霜十字"
+L["Requires Frost and Death order advancement"] = "需要「冰霜與死亡」的職業大廳升級"
+L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "厄蘭·卓爾 <黯刃騎士霜劫者招募官>" -- 120135
 
 -- //////////////////////////
 -- Demon Hunter
@@ -105,6 +109,10 @@ L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <
 L["Belath Dawnblade <Illidari>"] = "貝拉斯·曦刃 <伊利達瑞>"
 L["Ariana Fireheart <Illidari>"] = "亞莉安娜·炎心 <伊利達瑞>"
 L["Slitesh <Armaments Requisitioner>"] = "伽絲 <武裝徵調員>"
+L["Requires Fel Hammer's Wrath order advancement"] = "需要「魔錘號之怒」的職業大廳升級"
+L["Empowered Rift Core"] = "強力裂隙核心"
+L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
+L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
 
 -- //////////////////////////
 -- Druid
@@ -123,6 +131,8 @@ L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>"
 L["Zen'kiki"] = "贊基奇"
 L["Yaris Darkclaw <Recruiter>"] = "亞里斯·暗爪 <招募員>"
 L["Mylune"] = "蜜露恩"
+L["Requires Wardens of the Grove order advancement"] = "需要「林地看守者」的職業大廳升級"
+L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "夏隆星 <幻夢之林看守者招募員>" -- 108391
 
 -- //////////////////////////
 -- Hunter
@@ -143,6 +153,8 @@ L["Great Eagle"] = "巨鷹"
 L["Ogdrul <The Seeker>"] = "奧格度 <追尋者>"
 L["Image of Mimiron"] = "彌米倫的影像"
 L["Berger the Steadfast <Champion Armaments>"] = "堅定的伯格 <勇士武裝>" -- 110412
+L["Requires Born of the Night order advancement"] = "需要「黑夜之喬」的職業大廳升級"
+L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "暗夜女獵手希樂絲 <夜裔獵人招募員>" -- 106445
 
 -- //////////////////////////
 -- Mage
@@ -165,6 +177,8 @@ L["Magister Varenthas <High Forgeguard>"] = "博學者瓦倫薩斯 <熔爐護法
 L["Minuette <Armament Summoner>"] = "米略特 <武裝召喚師>" -- 110427
 L["Ari"] = "亞莉" -- 109307
 L["Teleportation Nexus"] = "傳送網路"
+L["Requires Guardians of the Kirin Tor order advancement"] = "需要「祈倫托的守護者」的職業大廳升級"
+L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "守護者雅菈 <祈倫托守護者招募員>" -- 106434
 
 -- //////////////////////////
 -- Monk
