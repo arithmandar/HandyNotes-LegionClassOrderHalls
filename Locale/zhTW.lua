@@ -87,6 +87,7 @@ L["Requires Frost Wyrm work order advancement"] = "需要「冰霜巨龍」的�
 L["Frost Crux"] = "冰霜十字"
 L["Requires Frost and Death order advancement"] = "需要「冰霜與死亡」的職業大廳升級"
 L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "厄蘭·卓爾 <黯刃騎士霜劫者招募官>" -- 120135
+L["Winter Payne"] = "寒冬派恩"-- 111634
 
 -- //////////////////////////
 -- Demon Hunter
@@ -133,6 +134,9 @@ L["Yaris Darkclaw <Recruiter>"] = "亞里斯·暗爪 <招募員>"
 L["Mylune"] = "蜜露恩"
 L["Requires Wardens of the Grove order advancement"] = "需要「林地看守者」的職業大廳升級"
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "夏隆星 <幻夢之林看守者招募員>" -- 108391
+L["Treant Sapling <Ancient of War Tender>"] = "樹人幼苗 <戰爭古樹看管者>" -- 111786
+L["Requires Ancient of War order advancement"] = "需要「戰爭古樹」的職業大廳升級"
+--L["Ancient of War"] = "Ancient of War"
 
 -- //////////////////////////
 -- Hunter
@@ -197,6 +201,10 @@ L["Wise Scholar Lianji <Senior Master Serpent>"] = "睿智的學者蓮姬 <蛟�
 L["Tianji <Ox Troop Trainer>"] = "田季 <玄牛部隊訓練師>"
 L["High Elder Cloudfall"] = "高階長老雲落"
 L["Gin Lai <Tiger Troop Trainer>"] = "金萊 <白虎部隊訓練師>"
+L["Tianili <Celestial Trainer>"] = "田倪勵 <天尊訓練師>" -- 106538
+L["Requires Celestial Favor order advancement"] = "需要「天尊恩賜」的職業大廳升級"
+L["Master Swoo <Masters of Serenity Recruiter>"] = "蘇悟大師 <冰心大師招募員>" -- 120145
+L["Requires Masters of the Path order advancement"] = "需要「尋道大師」的職業大廳升級"
 
 -- //////////////////////////
 -- Paladin

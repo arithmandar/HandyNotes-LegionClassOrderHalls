@@ -86,6 +86,7 @@ L["Requires Frost Wyrm work order advancement"] = "Requires Frost Wyrm work orde
 L["Frost Crux"] = "Frost Crux"
 L["Requires Frost and Death order advancement"] = "Requires Frost and Death order advancement"
 L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "Eran Droll <Ebon Knight Frostreavers Recruiter>" -- 120135
+L["Winter Payne"] = "Winter Payne"-- 111634
 
 -- //////////////////////////
 -- Demon Hunter
@@ -132,6 +133,9 @@ L["Yaris Darkclaw <Recruiter>"] = "Yaris Darkclaw <Recruiter>" -- 106442
 L["Mylune"] = "Mylune" -- 113525
 L["Requires Wardens of the Grove order advancement"] = "Requires Wardens of the Grove order advancement"
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "Shalorn Star <Dreamgrove Warden Recruiter>" -- 108391
+L["Treant Sapling <Ancient of War Tender>"] = "Treant Sapling <Ancient of War Tender>" -- 111786
+L["Requires Ancient of War order advancement"] = "Requires Ancient of War order advancement"
+--L["Ancient of War"] = "Ancient of War"
 
 -- //////////////////////////
 -- Hunter
@@ -196,6 +200,10 @@ L["Wise Scholar Lianji <Senior Master Serpent>"] = "Wise Scholar Lianji <Senior 
 L["Tianji <Ox Troop Trainer>"] = "Tianji <Ox Troop Trainer>" -- 105015
 L["High Elder Cloudfall"] = "High Elder Cloudfall" -- 104744
 L["Gin Lai <Tiger Troop Trainer>"] = "Gin Lai <Tiger Troop Trainer>" -- 105019
+L["Tianili <Celestial Trainer>"] = "Tianili <Celestial Trainer>" -- 106538
+L["Requires Celestial Favor order advancement"] = "Requires Celestial Favor order advancement"
+L["Master Swoo <Masters of Serenity Recruiter>"] = "Master Swoo <Masters of Serenity Recruiter>" -- 120145
+L["Requires Masters of the Path order advancement"] = "Requires Masters of the Path order advancement"
 
 -- //////////////////////////
 -- Paladin

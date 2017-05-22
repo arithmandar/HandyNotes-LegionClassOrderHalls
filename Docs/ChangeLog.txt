@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.12 (xx, 2017)
+-----------------------
+- Added Treant Sapling to Druid's order hall
+- Added Master Swoo and Tianili to Monk's order hall
+- Added Winter Payne to Deathknight's order hall
+
 * v1.11 (May 20, 2017)
 -----------------------
 - Added Eran Droll to Deathknight's order hall
