@@ -86,7 +86,7 @@ L["Requires Frost Wyrm work order advancement"] = "Requires Frost Wyrm work orde
 L["Frost Crux"] = "Frost Crux"
 L["Requires Frost and Death order advancement"] = "Requires Frost and Death order advancement"
 L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "Eran Droll <Ebon Knight Frostreavers Recruiter>" -- 120135
-L["Winter Payne"] = "Winter Payne"-- 111634
+L["Winter Payne"] = "Winter Payne" -- 111634
 
 -- //////////////////////////
 -- Demon Hunter
@@ -111,6 +111,7 @@ L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>" -- 103760
 L["Slitesh <Armaments Requisitioner>"] = "Slitesh <Armaments Requisitioner>" -- 110433
 L["Requires Fel Hammer's Wrath order advancement"] = "Requires Fel Hammer's Wrath order advancement"
 L["Empowered Rift Core"] = "Empowered Rift Core"
+L["Evelune Soulreaver <Wrath of the Order>"] = "Evelune Soulreaver <Wrath of the Order>" -- 111775
 L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "Tormented Shivarra <Shivarra Recruiter>" -- 120140
 

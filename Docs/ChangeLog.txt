@@ -8,6 +8,7 @@ Revision History:
 - Added Treant Sapling to Druid's order hall
 - Added Master Swoo and Tianili to Monk's order hall
 - Added Winter Payne to Deathknight's order hall
+- Added Evelune Soulreaver to Demon Hunter's order hall
 
 * v1.11 (May 20, 2017)
 -----------------------

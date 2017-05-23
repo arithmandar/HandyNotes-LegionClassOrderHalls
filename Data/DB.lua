@@ -78,6 +78,7 @@ DB.points = {
 		[56285416] = { recruiter=true, dungeonLevel=2, label=L["Battlelord Gaardoun <Ashtongue Captain>"], npc=103025, note=CAPACITANCE_START_RECRUITMENT },
 		[58623885] = { recruiter=true, dungeonLevel=2, label=L["Ariana Fireheart <Illidari>"], npc=103760, note=CAPACITANCE_START_RECRUITMENT },
 		[56207480] = { recruiter=true, dungeonLevel=2, label=L["Tormented Shivarra <Shivarra Recruiter>"], npc=120140, note=L["Requires Blades of Death order advancement"] },
+		[58236907] = { recruiter=true, dungeonLevel=2, label=L["Evelune Soulreaver <Wrath of the Order>"], npc=111775, note=L["Empowered Rift Core"].."\n"..L["Requires Fel Hammer's Wrath order advancement"] },
 		[62007501] = { research=true, dungeonLevel=3, label=L["Vahu the Weathered <Illidari Researcher>"], npc=111736, note=L["Artifact Research"] },
 		[60044331] = { armaments=true, dungeonLevel=2, label=L["Slitesh <Armaments Requisitioner>"], npc=110433, note=L["Champion Armaments"] },
 		[58442679] = { artifact=true, dungeonLevel=3, label=L["Cursed Forge of the Nathrezim"], class="DEMONHUNTER", note=ARTIFACT_POWER },
