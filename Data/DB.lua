@@ -275,7 +275,7 @@ DB.points = {
 		[59141200] = { mission=true, dungeonLevel=1, label=L["Eye of Odyn"], note=ORDER_HALL_MISSIONS },
 		[62391499] = { recruiter=true, dungeonLevel=1, label=L["Captain Hjalmar Stahlstrom <Recruiter>"], npc=106459, note=CAPACITANCE_START_RECRUITMENT },
 		[55681507] = { recruiter=true, dungeonLevel=1, label=L["Savyn Valorborn <Recruiter>"], npc=106460, note=CAPACITANCE_START_RECRUITMENT },
-		[54911672] = { recruiter=true, dungeonLevel=1, label=(faction == "Alliance") and L["Matthew Glensorrow <Recruiter>"] or L["Sharak Tor <Recruiter>"], npc=(faction == "Alliance") and 120077 or 106461, note=L["Requires Strike Hard order advancement"] },
+		[54771738] = { recruiter=true, dungeonLevel=1, label=(faction == "Alliance") and L["Matthew Glensorrow <Recruiter>"] or L["Sharak Tor <Recruiter>"], npc=(faction == "Alliance") and 120077 or 106461, note=L["Requires Strike Hard order advancement"] },
 		[72773026] = { recruiter=true, dungeonLevel=1, label=L["Matilda Skoptidottir"], npc=111774, note=L["Horn of War"].."\n"..L["Requires Val'kyr Call order advancement"] },
 		[45082826] = { research=true, dungeonLevel=1, label=L["Fjornson Stonecarver <Keeper of Legends>"], npc=111741, note=L["Artifact Research"] },
 		[62322593] = { armaments=true, dungeonLevel=1, label=L["Haklang Ulfsson <Armaments Requisitioner>"], npc=110437, note=L["Champion Armaments"] },
