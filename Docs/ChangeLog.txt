@@ -8,6 +8,7 @@ Revision History:
 - Added Tu'Las the Gifted (Seal of Broken Fate vendor) to Hunter's order hall
 - Localization update:
   - Russian (DogmatX)
+- Fixed issue that no-lib version was not able to locate LibBabble-SubZone-3.0
 
 * v1.12 (May 24, 2017)
 -----------------------
