@@ -28,6 +28,7 @@ L["Light's Heart"] = "聖光之心"
 L["Portal"] = "傳送門"
 L["Artifact Research"] = "神兵武器研究"
 L["Class Hall Quartermaster"] = "職業大廳軍需官"
+L["Seal of Broken Fate"] = "破碎命運徽印"
 
 -- //////////////////////////
 -- Configs
@@ -52,6 +53,7 @@ L["Show the location of your class hall forge where you can manage your artifact
 L["Show portal's locations."] = "顯示傳送門位置。"
 L["Show flight master's location."] = "顯示飛行管理員位置。"
 L["Show the location of Light's Heart."] = "顯示聖光之心位置。"
+L["Show the location of Seal of Broken Fate vendor."] = "顯示破碎命運徽印商人的位置。"
 L["Others"] = "其他"
 L["Show all the other POIs."] = "顯示所有其他的 POI 點。"
 -- AddOn Settings
@@ -110,9 +112,9 @@ L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <
 L["Belath Dawnblade <Illidari>"] = "貝拉斯·曦刃 <伊利達瑞>"
 L["Ariana Fireheart <Illidari>"] = "亞莉安娜·炎心 <伊利達瑞>"
 L["Slitesh <Armaments Requisitioner>"] = "伽絲 <武裝徵調員>"
-L["Evelune Soulreaver <Wrath of the Order>"] = "伊芙露恩·劫靈者 <伊利達瑞烈怒>" -- 111775
 L["Requires Fel Hammer's Wrath order advancement"] = "需要「魔錘號之怒」的職業大廳升級"
 L["Empowered Rift Core"] = "強力裂隙核心"
+L["Evelune Soulreaver <Wrath of the Order>"] = "伊芙露恩·劫靈者 <伊利達瑞烈怒>" -- 111775
 L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
 
@@ -160,6 +162,8 @@ L["Image of Mimiron"] = "彌米倫的影像"
 L["Berger the Steadfast <Champion Armaments>"] = "堅定的伯格 <勇士武裝>" -- 110412
 L["Requires Born of the Night order advancement"] = "需要「黑夜之喬」的職業大廳升級"
 L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "暗夜女獵手希樂絲 <夜裔獵人招募員>" -- 106445
+L["Tu'Las the Gifted <Seal of Broken Fate Shipment>"] = "『天才』圖拉斯 <破碎命運徽印貨物>"
+L["Requires Unseen Path order advancement"] = "需要「隱獵團」的職業大廳升級"
 
 -- //////////////////////////
 -- Mage
