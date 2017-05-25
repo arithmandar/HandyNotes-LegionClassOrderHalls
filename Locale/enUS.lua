@@ -27,6 +27,7 @@ L["Light's Heart"] = "Light's Heart"
 L["Portal"] = "Portal"
 L["Artifact Research"] = "Artifact Research"
 L["Class Hall Quartermaster"] = "Class Hall Quartermaster"
+L["Seal of Broken Fate"] = "Seal of Broken Fate"
 
 -- //////////////////////////
 -- Configs
@@ -51,6 +52,7 @@ L["Show the location of your class hall forge where you can manage your artifact
 L["Show portal's locations."] = "Show portal's locations."
 L["Show flight master's location."] = "Show flight master's location."
 L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
+L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
 L["Others"] = "Others"
 L["Show all the other POIs."] = "Show all the other POIs."
 -- AddOn Settings
@@ -159,6 +161,8 @@ L["Image of Mimiron"] = "Image of Mimiron" -- 110424
 L["Berger the Steadfast <Champion Armaments>"] = "Berger the Steadfast <Champion Armaments>" -- 110412
 L["Requires Born of the Night order advancement"] = "Requires Born of the Night order advancement"
 L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "Nighthuntress Silus <Nightborne Hunters Recruiter>" -- 106445
+L["Tu'Las the Gifted <Seal of Broken Fate Shipment>"] = "Tu'Las the Gifted <Seal of Broken Fate Shipment>"
+L["Requires Unseen Path order advancement"] = "Requires Unseen Path order advancement"
 
 -- //////////////////////////
 -- Mage

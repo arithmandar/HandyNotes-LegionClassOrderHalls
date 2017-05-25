@@ -37,6 +37,7 @@ constants.defaults = {
 		show_portal = true,
 		show_flight = true,
 		show_lightsHeart = true,
+		show_sealOrder = true,
 		show_others = true,
 	},
 	char = {

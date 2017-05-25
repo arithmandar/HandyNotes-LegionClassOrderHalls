@@ -50,7 +50,7 @@ local function work_out_texture(point)
 	local icon_key
 	
 	if (point.mission) then icon_key = "greenButton" end
-	if (point.recruiter or point.research or point.armaments) then icon_key = "workOrder" end
+	if (point.recruiter or point.research or point.armaments or point.sealOrder) then icon_key = "workOrder" end
 	if (point.quartermaster) then icon_key = "repair" end
 	if (point.classUpgrade) then icon_key = "class" end
 	if (point.artifact and point.class) then icon_key = point.class end
@@ -73,6 +73,15 @@ end
 local get_point_info = function(point)
 	if point then
 		local label = point.label or UNKNOWN
+		if (point.recruiter or point.research or point.armaments or point.sealOrder) then 
+			if not point.scale then point.scale = 0.8 end
+		end
+		if (point.quartermaster) then
+			if not point.scale then point.scale = 0.8 end
+		end
+		if (point.classUpgrade) then
+			if not point.scale then point.scale = 0.8 end
+		end
 		if (point.lightsHeart) then
 			if not point.scale then point.scale = 0.8 end
 		end
@@ -266,6 +275,7 @@ do
 		if (point.portal and not private.db.show_portal) then return false; end
 		if (point.flight and not private.db.show_flight) then return false; end
 		if (point.lightsHeart and not private.db.show_lightsHeart) then return false; end
+		if (point.sealOrder and not private.db.show_sealOrder) then return false; end
 		if (point.others and not private.db.show_others) then return false; end
 		return true
 	end
