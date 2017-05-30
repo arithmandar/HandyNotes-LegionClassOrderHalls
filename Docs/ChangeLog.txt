@@ -3,6 +3,11 @@ $Id$
 Revision History:
 =================
 
+* v1.14 (May 30, 2017)
+-----------------------
+- Localization update:
+  - German (pas06)
+
 * v1.13 (May 26, 2017)
 -----------------------
 - Added Tu'Las the Gifted (Seal of Broken Fate vendor) to Hunter's order hall
