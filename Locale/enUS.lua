@@ -187,6 +187,9 @@ L["Ari"] = "Ari" -- 109307
 L["Teleportation Nexus"] = "Teleportation Nexus"
 L["Requires Guardians of the Kirin Tor order advancement"] = "Requires Guardians of the Kirin Tor order advancement"
 L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "Guardian Alar <Kirin Tor Guardians Recruiter>" -- 106434
+L["Conjurer Awlyn"] = "Conjurer Awlyn" -- 111734
+L["Requires Might of Dalaran order advancement"] = "Requires Might of Dalaran order advancement"
+L["Focusing Crystal"] = "Focusing Crystal"
 
 -- //////////////////////////
 -- Monk

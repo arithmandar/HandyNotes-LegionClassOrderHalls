@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.15 (Jun. 02, 2017)
+-----------------------
+- Added Conjurer Awlyn to Mage's order hall
+
 * v1.14 (May 30, 2017)
 -----------------------
 - Localization update:

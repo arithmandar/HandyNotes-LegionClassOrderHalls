@@ -188,6 +188,9 @@ L["Ari"] = "亞莉" -- 109307
 L["Teleportation Nexus"] = "傳送網路"
 L["Requires Guardians of the Kirin Tor order advancement"] = "需要「祈倫托的守護者」的職業大廳升級"
 L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "守護者雅菈 <祈倫托守護者招募員>" -- 106434
+L["Conjurer Awlyn"] = "咒術師歐琳" -- 111734
+L["Requires Might of Dalaran order advancement"] = "需要「達拉然之力」的職業大廳升級"
+L["Focusing Crystal"] = "水晶法器"
 
 -- //////////////////////////
 -- Monk
