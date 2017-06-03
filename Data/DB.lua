@@ -199,6 +199,8 @@ DB.points = {
 		[49704720] = { mission=true, dungeonLevel=1, label=L["Command Map"], note=ORDER_HALL_MISSIONS },
 		[40882759] = { recruiter=true, dungeonLevel=1, label=L["Grand Anchorite Gesslar <Recruiter>"], npc=106450, note=CAPACITANCE_START_RECRUITMENT },
 		[40865394] = { recruiter=true, dungeonLevel=1, label=L["Vicar Eliza <Recruiter>"], npc=106451, note=CAPACITANCE_START_RECRUITMENT },
+		[57365501] = { recruiter=true, dungeonLevel=1, label=L["High Priestess Mourn <Recruiter>"], npc=120160, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Hooded Priests order advancement"] },
+		[59402917] = { sealOrder=true, dungeonLevel=1, label=L["Truth <Seal of Broken Fate Shipment>"], npc=110819, note=L["Seal of Broken Fate"].."\n"..L["Requires Blessed Seals order advancement"] },
 		[59852805] = { research=true, dungeonLevel=1, label=L["Juvess the Duskwhisperer <Keeper of Scrolls>"], npc=111738, note=L["Artifact Research"] },
 		[45492658] = { armaments=true, dungeonLevel=1, label=L["Lilith <Armament Supplier>"], npc=110595, note=L["Champion Armaments"] },
 		[56014078] = { classUpgrade=true, dungeonLevel=1, label=L["Archon Torias <Class Hall Upgrades>"], npc=110725, note=ORDER_HALL_TALENT_TITLE  },

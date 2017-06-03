@@ -256,6 +256,10 @@ L["Vicar Eliza <Recruiter>"] = "Vicar Eliza <Recruiter>" -- 106451
 L["Lilith <Armament Supplier>"] = "Lilith <Armament Supplier>" -- 110595
 L["Light Well"] = "Light Well"
 L["Shadow Well"] = "Shadow Well"
+L["Truth <Seal of Broken Fate Shipment>"] = "Truth <Seal of Broken Fate Shipment>" -- 110819
+L["Requires Blessed Seals order advancement"] = "Requires Blessed Seals order advancement"
+L["High Priestess Mourn <Recruiter>"] = "High Priestess Mourn <Recruiter>" -- 120160
+L["Requires Hooded Priests order advancement"] = "Requires Hooded Priests order advancement"
 
 -- //////////////////////////
 -- Rogue

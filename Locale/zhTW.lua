@@ -257,7 +257,10 @@ L["Vicar Eliza <Recruiter>"] = "伊莉莎牧師 <招募員>"
 L["Lilith <Armament Supplier>"] = "莉莉絲 <武裝補給官>"
 L["Light Well"] = "光明之井"
 L["Shadow Well"] = "暗影之井"
-
+L["Truth <Seal of Broken Fate Shipment>"] = "真理 <破碎命運徽印貨物>" -- 110819
+L["Requires Blessed Seals order advancement"] = "需要「祝福徽印」的職業大廳升級"
+--L["High Priestess Mourn <Recruiter>"] = "High Priestess Mourn <Recruiter>" -- 120160
+L["Requires Hooded Priests order advancement"] = "需要「神秘的牧師」的職業大廳升級"
 -- //////////////////////////
 -- Rogue
 -- //////////////////////////

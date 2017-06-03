@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.16 (Jun. xx, 2017)
+-----------------------
+- Added Truth <Seal of Broken Fate Shipment> and High Priestess Mourn <Recruiter> to Priest' order hall
+
 * v1.15 (Jun. 02, 2017)
 -----------------------
 - Added Conjurer Awlyn to Mage's order hall
