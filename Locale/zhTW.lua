@@ -259,7 +259,7 @@ L["Light Well"] = "光明之井"
 L["Shadow Well"] = "暗影之井"
 L["Truth <Seal of Broken Fate Shipment>"] = "真理 <破碎命運徽印貨物>" -- 110819
 L["Requires Blessed Seals order advancement"] = "需要「祝福徽印」的職業大廳升級"
---L["High Priestess Mourn <Recruiter>"] = "High Priestess Mourn <Recruiter>" -- 120160
+L["High Priestess Mourn <Recruiter>"] = "高階祭司莫恩 <招募員>" -- 120160
 L["Requires Hooded Priests order advancement"] = "需要「神秘的牧師」的職業大廳升級"
 -- //////////////////////////
 -- Rogue
@@ -283,6 +283,10 @@ L["Garona Halforcen"] = "迦羅娜·半血" -- 94141
 L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>"
 L["Vanessa VanCleef"] = "凡尼莎·范克里夫" -- 102550
 L["Knocker - %s"] = "叩門環 - %s"
+L["Scythe <Seal of Broken Fate Shipment>"] = "鐮刀 <破碎命運徽印貨物>" -- 110820
+L["Requires Plunder order advancement"] = "需要「掠奪」的職業大廳升級"
+L["Laura Stern <Recruiter>"] = "蘿拉·史騰 <招募員>" -- 120162
+L["Requires Ravenholdt's Finest order advancement"] = "需要「拉文霍德精兵」的職業大廳升級"
 
 -- //////////////////////////
 -- Shaman

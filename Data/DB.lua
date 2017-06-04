@@ -218,6 +218,8 @@ DB.points = {
 		[36644514] = { mission=true, dungeonLevel=4, label=ADVENTURE_MAP_TITLE, note=ORDER_HALL_MISSIONS },
 		[31882674] = { recruiter=true, dungeonLevel=4, label=L["Lonika Stillblade <Rogue Academy Proprietor>"], npc=105979, note=CAPACITANCE_START_RECRUITMENT },
 		[48174120] = { recruiter=true, dungeonLevel=4, label=L["Yancey Grillsen <Bloodsail Recruiter>"], npc=106083, note=CAPACITANCE_START_RECRUITMENT },
+		[45897777] = { recruiter=true, dungeonLevel=4, label=L["Laura Stern <Recruiter>"], npc=120162, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Ravenholdt's Finest order advancement"] },
+		[61355108] = { sealOrder=true, dungeonLevel=4, label=L["Scythe <Seal of Broken Fate Shipment>"], npc=110820, note=L["Seal of Broken Fate"].."\n"..L["Requires Plunder order advancement"] },
 		[37937007] = { research=true, dungeonLevel=4, label=L["Filius Sparkstache <Archivist>"], npc=102641, note=L["Artifact Research"] },
 		[26903685] = { quartermaster=true, dungeonLevel=4, label=L["Kelsey Steelspark <Quartermaster>"], npc=105986, note=L["Class Hall Quartermaster"] },
 		[26956177] = { artifact=true, dungeonLevel=4, label=L["Crucible of the Uncrowned"], class="ROGUE", note=ARTIFACT_POWER },

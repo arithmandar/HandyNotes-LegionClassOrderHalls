@@ -283,6 +283,10 @@ L["Garona Halforcen"] = "Garona Halforcen" -- 94141
 L["Mal <Weapons Smuggler>"] = "Mal <Weapons Smuggler>" -- 110348
 L["Vanessa VanCleef"] = "Vanessa VanCleef" -- 102550
 L["Knocker - %s"] = "Knocker - %s"
+L["Scythe <Seal of Broken Fate Shipment>"] = "Scythe <Seal of Broken Fate Shipment>" -- 110820
+L["Requires Plunder order advancement"] = "Requires Plunder order advancement"
+L["Laura Stern <Recruiter>"] = "Laura Stern <Recruiter>" -- 120162
+L["Requires Ravenholdt's Finest order advancement"] = "Requires Ravenholdt's Finest order advancement"
 
 -- //////////////////////////
 -- Shaman
