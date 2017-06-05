@@ -311,6 +311,11 @@ L["Morgl the Oracle <The Earthen Ring>"] = "Morgl the Oracle <The Earthen Ring>"
 L["Summoner Morn <Elemental Summoner>"] = "Summoner Morn <Elemental Summoner>" -- 106457
 L["Neptulon"] = "Neptulon" -- 106291
 L["Felinda Frye <Earthwarden Recruiter>"] = "Felinda Frye <Earthwarden Recruiter>" -- 112208
+L["Requires \"Rise!\" order advancement"] = "Requires \"Rise!\" order advancement"
+L["Bath'rah the Windwatcher <Seal of Broken Fate Shipment>"] = "Bath'rah the Windwatcher <Seal of Broken Fate Shipment>" -- 112299
+L["Requires Spirit Walk order advancement"] = "Requires Spirit Walk order advancement"
+L["Requires Ring of Earth order advancement"] = "Requires Ring of Earth order advancement"
+L["Marick Ven <Earthen Ring Protectors Recruiter>"] = "Marick Ven <Earthen Ring Protectors Recruiter>" -- 120165
 
 -- //////////////////////////
 -- Warlock

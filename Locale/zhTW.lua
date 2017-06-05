@@ -311,6 +311,11 @@ L["Morgl the Oracle <The Earthen Ring>"] = "神諭者莫哥 <陶土議會>"
 L["Summoner Morn <Elemental Summoner>"] = "召喚者摩恩 <元素召喚者>"
 L["Neptulon"] = "奈普圖隆"
 L["Felinda Frye <Earthwarden Recruiter>"] = "費琳達·弗萊 <大地守望者招募員>"
+L["Requires \"Rise!\" order advancement"] = "需要「奮起！」的職業大廳升級"
+L["Bath'rah the Windwatcher <Seal of Broken Fate Shipment>"] = "『觀風者』巴斯拉 <破碎命運徽印貨物>" -- 112299
+L["Requires Spirit Walk order advancement"] = "需要「幽魂步伐」的職業大廳升級"
+L["Requires Ring of Earth order advancement"] = "需要「大地環繞」的職業大廳升級"
+L["Marick Ven <Earthen Ring Protectors Recruiter>"] = "馬里克·凡 <陶土議會保衛者招募員>" -- 120165
 
 -- //////////////////////////
 -- Warlock
