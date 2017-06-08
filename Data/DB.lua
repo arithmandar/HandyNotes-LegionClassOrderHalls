@@ -251,6 +251,7 @@ DB.points = {
 		[30545877] = { recruiter=true, label=L["Summoner Morn <Elemental Summoner>"], npc=106457, note=CAPACITANCE_START_RECRUITMENT },
 		[29254276] = { recruiter=true, label=L["Felinda Frye <Earthwarden Recruiter>"], npc=112208, note=CAPACITANCE_START_RECRUITMENT },
 		[34003480] = { recruiter=true, label=L["Marick Ven <Earthen Ring Protectors Recruiter>"], npc=120165, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Ring of Earth order advancement"] },
+		[31935148] = { recruiter=true, label=L["Alexor <The Ascended>"], npc=109829, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires \"Rise!\" order advancement"] },
 		[31153510] = { sealOrder=true, label=L["Bath'rah the Windwatcher <Seal of Broken Fate Shipment>"], npc=112299, note=L["Seal of Broken Fate"].."\n"..L["Requires Spirit Walk order advancement"] },
 		[32564961] = { research=true, label=L["Gorma Windspeaker <Keeper of Legends>"], npc=111739, note=L["Artifact Research"] },
 		[33385820] = { classUpgrade=true, label=L["Journeyman Goldmine <Class Hall Upgrades>"], npc=112199, note=ORDER_HALL_TALENT_TITLE  },
