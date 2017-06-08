@@ -77,8 +77,9 @@ DB.points = {
 		[58935364] = { mission=true, dungeonLevel=2, label=ADVENTURE_MAP_TITLE, note=ORDER_HALL_MISSIONS },
 		[56285416] = { recruiter=true, dungeonLevel=2, label=L["Battlelord Gaardoun <Ashtongue Captain>"], npc=103025, note=CAPACITANCE_START_RECRUITMENT },
 		[58623885] = { recruiter=true, dungeonLevel=2, label=L["Ariana Fireheart <Illidari>"], npc=103760, note=CAPACITANCE_START_RECRUITMENT },
-		[56207480] = { recruiter=true, dungeonLevel=2, label=L["Tormented Shivarra <Shivarra Recruiter>"], npc=120140, note=L["Requires Blades of Death order advancement"] },
+		[56207480] = { recruiter=true, dungeonLevel=2, label=L["Tormented Shivarra <Shivarra Recruiter>"], npc=120140, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Blades of Death order advancement"] },
 		[58236907] = { recruiter=true, dungeonLevel=2, label=L["Evelune Soulreaver <Wrath of the Order>"], npc=111775, note=L["Empowered Rift Core"].."\n"..L["Requires Fel Hammer's Wrath order advancement"] },
+		[54315981] = { sealOrder=true, dungeonLevel=3, label=L["Seer Aleis <Seal of Broken Fate Shipment>"], npc=112992, note=L["Seal of Broken Fate"].."\n"..L["Requires Focused War Effort order advancement"] },
 		[62007501] = { research=true, dungeonLevel=3, label=L["Vahu the Weathered <Illidari Researcher>"], npc=111736, note=L["Artifact Research"] },
 		[60044331] = { armaments=true, dungeonLevel=2, label=L["Slitesh <Armaments Requisitioner>"], npc=110433, note=L["Champion Armaments"] },
 		[58442679] = { artifact=true, dungeonLevel=3, label=L["Cursed Forge of the Nathrezim"], class="DEMONHUNTER", note=ARTIFACT_POWER },
@@ -103,6 +104,7 @@ DB.points = {
 		[36332544] = { recruiter=true, label=L["Sister Lilith <Recruiter>"], npc=108393, note=CAPACITANCE_START_RECRUITMENT },
 		[43256329] = { recruiter=true, label=L["Treant Sapling <Ancient of War Tender>"], npc= 111786, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Ancient of War order advancement"] },
 		[29944293] = { recruiter=true, label=L["Shalorn Star <Dreamgrove Warden Recruiter>"], npc=108391, note=L["Requires Wardens of the Grove order advancement"] },
+		-- sealOrder TBD
 		[33883255] = { research=true, label=L["Celadine the Fatekeeper <Dreamgrove Researcher>"], npc=111737, note=L["Artifact Research"] },
 		[30525359] = { artifact=true, label=L["Seed of Ages"], class="DRUID", note=ARTIFACT_POWER },
 		[32782925] = { classUpgrade=true, label=L["Leafbeard the Storied <Ancient of Lore>"], npc=97989, note=ORDER_HALL_TALENT_TITLE  },
@@ -144,6 +146,7 @@ DB.points = {
 		[47743202] = { recruiter=true, dungeonLevel=1, label=L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"], npc=106433, note=CAPACITANCE_START_RECRUITMENT },
 		[81342831] = { recruiter=true, dungeonLevel=1, label=L["Guardian Alar <Kirin Tor Guardians Recruiter>"], npc=106434, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Guardians of the Kirin Tor order advancement"] },
 		[78065295] = { recruiter=true, dungeonLevel=1, label=L["Conjurer Awlyn"], npc=111734, note=L["Focusing Crystal"].."\n"..L["Requires Might of Dalaran order advancement"] },
+		-- sealOrder TBD
 		[64615027] = { research=true, dungeonLevel=2, label=L["Edirah <Tirisgarde Researcher>"], npc=110624, note=L["Artifact Research"] },
 		[82875672] = { armaments=true, dungeonLevel=1, label=L["Minuette <Armament Summoner>"], npc=110427, note=L["Champion Armaments"] },
 		[74912892] = { classUpgrade=true, dungeonLevel=1, label=L["Chronicler Elrianne <Class Hall Upgrades>"], npc=108331, note=ORDER_HALL_TALENT_TITLE  },
@@ -166,6 +169,7 @@ DB.points = {
 		[53335975] = { recruiter=true, label=L["Tianji <Ox Troop Trainer>"], npc=105015, note=CAPACITANCE_START_RECRUITMENT },
 		[54405880] = { recruiter=true, label=L["Tianili <Celestial Trainer>"], npc=106538, note=CAPACITANCE_START_RECRUITMENT .."\n"..L["Requires Celestial Favor order advancement"] },
 		[51805560] = { recruiter=true, label=L["Master Swoo <Masters of Serenity Recruiter>"], npc=120145, note=L["Requires Masters of the Path order advancement"] },
+		-- sealOrder TBD
 		[46704669] = { research=true, label=L["Lorewalker Cho <Head Archivist>"], npc=106942, note=L["Artifact Research"] },
 		[51464800] = { artifact=true, label=L["Forge of the Roaring Mountain"], class="MONK", note=ARTIFACT_POWER },
 		[53045977] = { classUpgrade=true, label=L["Number Nine Jia <Class Hall Upgrades>"], npc=98939, note=ORDER_HALL_TALENT_TITLE  },
@@ -184,6 +188,7 @@ DB.points = {
 		[58893898] = { recruiter=true, dungeonLevel=20, label=L["Commander Born <Silver Hand Officer Recruiter>"], npc=106448, note=CAPACITANCE_START_RECRUITMENT },
 		[75103456] = { recruiter=true, dungeonLevel=20, label=L["Terric the Illuminator"], npc=111772, note=L["Silver Hand Orders"].."\n"..L["Requires Grand Crusade order advancement"] },
 		[62914473] = { recruiter=true, dungeonLevel=20, label=L["Crusader Kern <Silver Hand Crusader Recruiter>"], npc=120146, note=L["Requires Silver Hand Crusaders order advancement"] },
+		[49127655] = { sealOrder=true, dungeonLevel=20, label=L["Librarian Lightmorne <Seal of Broken Fate Shipment>"], npc=112986, note=L["Seal of Broken Fate"].."\n"..L["Requires Holy Purpose order advancement"] },
 		[37775731] = { research=true, dungeonLevel=20, label=L["Sister Elda <Keeper of the Ancient Tomes>"], npc=91190, note=L["Artifact Research"] },
 		[54044961] = { armaments=true, dungeonLevel=20, label=L["Kristoff <Armaments Requisitioner>"], npc=110434, note=L["Champion Armaments"] },
 		[39895652] = { classUpgrade=true, dungeonLevel=20, label=L["Sir Alamande Graythorn <Class Hall Upgrades>"], npc=109901, note=ORDER_HALL_TALENT_TITLE  },

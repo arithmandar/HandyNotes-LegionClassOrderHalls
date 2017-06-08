@@ -117,6 +117,8 @@ L["Empowered Rift Core"] = "強力裂隙核心"
 L["Evelune Soulreaver <Wrath of the Order>"] = "伊芙露恩·劫靈者 <伊利達瑞烈怒>" -- 111775
 L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
+L["Seer Aleis <Seal of Broken Fate Shipment>"] = "先知亞雷斯 <破碎命運徽印貨物>" -- 112992
+L["Requires Focused War Effort order advancement"] = "需要「支援前線」的職業大廳升級"
 
 -- //////////////////////////
 -- Druid
@@ -237,6 +239,8 @@ L["Requires Grand Crusade order advancement"] = "需要「壯大遠征」的職�
 L["Silver Hand Orders"] = "白銀之手命令"
 L["Requires Silver Hand Crusaders order advancement"] = "需要「白銀之手十字軍」的職業大廳升級"
 L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "十字軍珂恩 <白銀之手十字軍招募員>" -- 120146
+L["Librarian Lightmorne <Seal of Broken Fate Shipment>"] = "圖書管理員光晨 <破碎命運徽印貨物>" -- 112986
+L["Requires Holy Purpose order advancement"] = "需要「神聖意圖」的職業大廳升級"
 
 -- //////////////////////////
 -- Priest

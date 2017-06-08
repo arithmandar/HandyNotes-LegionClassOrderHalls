@@ -116,6 +116,8 @@ L["Empowered Rift Core"] = "Empowered Rift Core"
 L["Evelune Soulreaver <Wrath of the Order>"] = "Evelune Soulreaver <Wrath of the Order>" -- 111775
 L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "Tormented Shivarra <Shivarra Recruiter>" -- 120140
+L["Seer Aleis <Seal of Broken Fate Shipment>"] = "Seer Aleis <Seal of Broken Fate Shipment>" -- 112992
+L["Requires Focused War Effort order advancement"] = "Requires Focused War Effort order advancement"
 
 -- //////////////////////////
 -- Druid
@@ -236,6 +238,8 @@ L["Requires Grand Crusade order advancement"] = "Requires Grand Crusade order ad
 L["Silver Hand Orders"] = "Silver Hand Orders"
 L["Requires Silver Hand Crusaders order advancement"] = "Requires Silver Hand Crusaders order advancement"
 L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "Crusader Kern <Silver Hand Crusader Recruiter>" -- 120146
+L["Librarian Lightmorne <Seal of Broken Fate Shipment>"] = "Librarian Lightmorne <Seal of Broken Fate Shipment>" -- 112986
+L["Requires Holy Purpose order advancement"] = "Requires Holy Purpose order advancement"
 
 -- //////////////////////////
 -- Priest

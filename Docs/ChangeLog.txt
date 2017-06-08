@@ -8,6 +8,8 @@ Revision History:
 - Added Truth <Seal of Broken Fate Shipment> and High Priestess Mourn <Recruiter> to Priest' order hall
 - Added Scythe <Seal of Broken Fate Shipment> and Laura Stern <Recruiter> to Rogue's order hall
 - Added Marick Ven <Earthen Ring Protectors Recruiter> and Bath'rah the Windwatcher <Seal of Broken Fate Shipment> to Shaman's order hall
+- Added Seer Aleis <Seal of Broken Fate Shipment> to Demon Hunter's order hall
+- Added Librarian Lightmorne <Seal of Broken Fate Shipment> to Paladin's order hall
 
 * v1.15 (Jun. 02, 2017)
 -----------------------
