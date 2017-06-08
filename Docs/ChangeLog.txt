@@ -3,7 +3,7 @@ $Id$
 Revision History:
 =================
 
-* v1.16 (Jun. xx, 2017)
+* v1.16 (Jun. 08, 2017)
 -----------------------
 - Added Truth <Seal of Broken Fate Shipment> and High Priestess Mourn 
   <Recruiter> to Priest' order hall
@@ -15,6 +15,8 @@ Revision History:
 - Added Seer Aleis <Seal of Broken Fate Shipment> to Demon Hunter's order hall
 - Added Librarian Lightmorne <Seal of Broken Fate Shipment> to Paladin's 
   order hall
+- Localization update:
+  - German (pas06)
 
 * v1.15 (Jun. 02, 2017)
 -----------------------
