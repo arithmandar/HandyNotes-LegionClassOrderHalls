@@ -10,6 +10,8 @@ Revision History:
 - Added Mage's Teleportation Nexus nodes to Broken Isles map
 - Added Hunter's Great Eagle nodes to Broken Isles map
 - Added Warrior's jumping points to Broken Isles map
+- Localization update:
+  - German (pas06)
 
 * v1.16 (Jun. 08, 2017)
 -----------------------
