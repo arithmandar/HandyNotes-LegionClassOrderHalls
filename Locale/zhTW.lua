@@ -339,6 +339,11 @@ L["Jared <Recruiter>"] = "嘉瑞德 <招募員>"
 L["Imp Mother Dyala <Recruiter>"] = "鬼母戴亞拉 <招募員>"
 L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級官>"
 L["Murr"] = "穆爾"
+L["Demonia Pickerin"] = "黛莫妮亞·皮克林" -- 113371
+L["Requires Demonia Pickerin order advancement"] = "需要「釋放煉獄火」的職業大廳升級"
+L["Demonic Phylactery"] = "惡魔骨匣"
+L["Galen Foul <Demon Summoner>"] = "加林·腐惡 <惡魔召喚師>" -- 120166
+L["Requires Demonic Brutes order advancement"] = "需要「惡魔蠻卒」的職業大廳升級"
 
 -- //////////////////////////
 -- Warrior

@@ -272,6 +272,8 @@ DB.points = {
 		[66724823] = { mission=true, label=L["Dreadscar Battle Plans"], note=ORDER_HALL_MISSIONS },
 		[61515179] = { recruiter=true, label=L["Jared <Recruiter>"], npc=106217, note=CAPACITANCE_START_RECRUITMENT },
 		[66703029] = { recruiter=true, label=L["Imp Mother Dyala <Recruiter>"], npc=106216, note=CAPACITANCE_START_RECRUITMENT },
+		[53002240] = { recruiter=true, label=L["Galen Foul <Demon Summoner>"], npc=120166, note=CAPACITANCE_START_RECRUITMENT.."\n"..L["Requires Demonic Brutes order advancement"] },
+		[49442491] = { recruiter=true, label=L["Demonia Pickerin"], npc=113371, note=L["Demonic Phylactery"].."\n"..L["Requires Demonia Pickerin order advancement"] },
 		[57054108] = { research=true, label=L["Mile Raitheborne <Head Archivist>"], npc=111740, note=L["Artifact Research"] },
 		[57325258] = { armaments=true, label=L["Murr"], npc=110408, note=L["Champion Armaments"] },
 		[33792790] = { artifact=true, label=L["Felblood Altar"], class="WARLOCK", note=ARTIFACT_POWER },
@@ -378,16 +380,16 @@ DB.points = {
 	},
 	-- Northrend
 	[mapFile(485)] = { -- Northrend
-		[73075158] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Grizzly Hills
+		[73075158] = { portal=true, L["Portal"], class="DRUID" }, -- Grizzly Hills
 	},
 	[mapFile(490)] = { -- Grizzly Hills
 		[50362937] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
 	},
 	-- Kalimdor
 	[mapFile(13)] = { -- Kalimdor
-		[41286383] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Feralas
-		[54402134] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Moonglade
-		[55712998] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Mount Hyjal
+		[41286383] = { portal=true, L["Portal"], class="DRUID" }, -- Feralas
+		[54402134] = { portal=true, L["Portal"], class="DRUID" }, -- Moonglade
+		[55712998] = { portal=true, L["Portal"], class="DRUID" }, -- Mount Hyjal
 	},
 	[mapFile(121)] = { -- Feralas
 		[51291076] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
@@ -400,8 +402,8 @@ DB.points = {
 	},
 	-- Eastern Kingdom
 	[mapFile(14)] = { -- Eastern Kingdom
-		[45647930] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Duskwood
-		[54353789] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Hinterlands
+		[45647930] = { portal=true, L["Portal"], class="DRUID" }, -- Duskwood
+		[54353789] = { portal=true, L["Portal"], class="DRUID" }, -- The Hinterlands
 	},
 	[mapFile(34)] = { -- Duskwood
 		[46573587] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
@@ -411,12 +413,12 @@ DB.points = {
 	},
 	-- World
 	["World"] = {
-		[56593757] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Dreamgrove
-		[57091776] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Grizzly Hills
-		[15106137] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Feralas
-		[22753655] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Moonglade
-		[23524158] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Mount Hyjal
-		[84317124] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Duskwood
-		[89884473] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Hinterlands
+		[56593757] = { portal=true, L["Portal"], class="DRUID" }, -- The Dreamgrove
+		[57091776] = { portal=true, L["Portal"], class="DRUID" }, -- Grizzly Hills
+		[15106137] = { portal=true, L["Portal"], class="DRUID" }, -- Feralas
+		[22753655] = { portal=true, L["Portal"], class="DRUID" }, -- Moonglade
+		[23524158] = { portal=true, L["Portal"], class="DRUID" }, -- Mount Hyjal
+		[84317124] = { portal=true, L["Portal"], class="DRUID" }, -- Duskwood
+		[89884473] = { portal=true, L["Portal"], class="DRUID" }, -- The Hinterlands
 	}
 }

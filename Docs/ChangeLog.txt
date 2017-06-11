@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.18 (Jun. xx, 2017)
+-----------------------
+- Added Demonia Pickerin and Galen Foul to Warlock's order hall
+
 * v1.17 (Jun. 11, 2017)
 -----------------------
 - Added Druid's portal nodes to the following maps:

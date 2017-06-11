@@ -339,6 +339,11 @@ L["Jared <Recruiter>"] = "Jared <Recruiter>" -- 106217
 L["Imp Mother Dyala <Recruiter>"] = "Imp Mother Dyala <Recruiter>" -- 106216
 L["Archivist Melinda <Class Hall Upgrades>"] = "Archivist Melinda <Class Hall Upgrades>" -- 108018
 L["Murr"] = "Murr" -- 110408
+L["Demonia Pickerin"] = "Demonia Pickerin" -- 113371
+L["Requires Demonia Pickerin order advancement"] = "Requires Demonia Pickerin order advancement"
+L["Demonic Phylactery"] = "Demonic Phylactery"
+L["Galen Foul <Demon Summoner>"] = "Galen Foul <Demon Summoner>" -- 120166
+L["Requires Demonic Brutes order advancement"] = "Requires Demonic Brutes order advancement"
 
 -- //////////////////////////
 -- Warrior
