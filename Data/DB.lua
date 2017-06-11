@@ -317,6 +317,7 @@ DB.points = {
 		[54707490] = { portal=true, spell=192085, class="WARRIOR" },
 		[51255610] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" },
 		[44321507] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
+		[41932172] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" }, -- The Dreamgrove
 	},
 	[mapFile(1080)] = { -- Thunder Totem
 		[39794219] = { portal=true, spell=192085, class="WARRIOR" },
@@ -338,6 +339,34 @@ DB.points = {
 		[70207105] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 		[41328282] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" },
 	},
+	[mapFile(1007)] = { -- Broken Isles
+		-- Druid
+		[30792486] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" }, -- The Dreamgrove
+		-- Mage
+		[33543470] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" }, -- Val'sharah
+		[37614873] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" }, -- Azsuna
+		[40522634] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" }, -- Highmountain
+		[52473524] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" }, -- Stormheim
+		[44054525] = { portal=true, label=L["Teleportation Nexus"], note=format(L["Portal to %s"], BZ["Hall of the Guardian"]), class="MAGE" }, -- Suramar
+		-- Hunter
+		[25945853] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Azsuna
+		[35187140] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Azsuna
+		[31512270] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Val'sharah
+		[49992781] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Highmountain
+		[41292094] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Highmountain
+		[54554100] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Stormheim
+		[56972762] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Stormheim
+		[46375480] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Suramar
+		[54885133] = { flight=true, label=L["Great Eagle"], npc=109572, class="HUNTER" }, -- Suramar
+		-- Warrior
+		[46966454] = { portal=true, spell=192085, class="WARRIOR" }, -- Dalaran
+		[33995327] = { portal=true, spell=192085, class="WARRIOR" }, -- Azsuna
+		[61353270] = { portal=true, spell=192085, class="WARRIOR" }, -- Stormheim
+		[34554020] = { portal=true, spell=192085, class="WARRIOR" }, -- Val'sharah
+		[46032488] = { portal=true, spell=192085, class="WARRIOR" }, -- Highmountain
+		[43944459] = { portal=true, spell=192085, class="WARRIOR" }, -- Suramar
+		[52607039] = { portal=true, spell=192085, class="WARRIOR" }, -- Broken Shore
+	},
 	[mapFile(1048)] = { -- Emerald Dreamway
 		[44592362] = { portal=true, label=format(L["Portal to %s"], BZ["The Dreamgrove"]), class="DRUID" },
 		[31442466] = { portal=true, label=format(L["Portal to %s"], BZ["Grizzly Hills"]), class="DRUID" },
@@ -347,8 +376,18 @@ DB.points = {
 		[48736345] = { portal=true, label=format(L["Portal to %s"], BZ["The Hinterlands"]), class="DRUID" },
 		[52635138] = { portal=true, label=format(L["Portal to %s"], BZ["Mount Hyjal"]), class="DRUID" },
 	},
+	-- Northrend
+	[mapFile(485)] = { -- Northrend
+		[73075158] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Grizzly Hills
+	},
 	[mapFile(490)] = { -- Grizzly Hills
 		[50362937] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
+	},
+	-- Kalimdor
+	[mapFile(13)] = { -- Kalimdor
+		[41286383] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Feralas
+		[54402134] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Moonglade
+		[55712998] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Mount Hyjal
 	},
 	[mapFile(121)] = { -- Feralas
 		[51291076] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
@@ -356,13 +395,28 @@ DB.points = {
 	[mapFile(241)] = { -- Moonglade
 		[67585994] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
 	},
+	[mapFile(606)] = { -- Mount Hyjal
+		[59072614] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
+	},
+	-- Eastern Kingdom
+	[mapFile(14)] = { -- Eastern Kingdom
+		[45647930] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Duskwood
+		[54353789] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Hinterlands
+	},
 	[mapFile(34)] = { -- Duskwood
 		[46573587] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
 	},
 	[mapFile(26)] = { -- The Hinterlands
 		[62322271] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
 	},
-	[mapFile(606)] = { -- Mount Hyjal
-		[59072614] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
-	},
+	-- World
+	["World"] = {
+		[56593757] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Dreamgrove
+		[57091776] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Grizzly Hills
+		[15106137] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Feralas
+		[22753655] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Moonglade
+		[23524158] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Mount Hyjal
+		[84317124] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- Duskwood
+		[89884473] = { portal=true, label=format(L["Portal"]), class="DRUID" }, -- The Hinterlands
+	}
 }

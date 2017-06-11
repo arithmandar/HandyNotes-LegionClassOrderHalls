@@ -3,6 +3,14 @@ $Id$
 Revision History:
 =================
 
+* v1.17 (Jun. 11, 2017)
+-----------------------
+- Added Druid's portal nodes to the following maps:
+  Northrend, Kalimdor, Eastern Kingdom, and the World maps
+- Added Mage's Teleportation Nexus nodes to Broken Isles map
+- Added Hunter's Great Eagle nodes to Broken Isles map
+- Added Warrior's jumping points to Broken Isles map
+
 * v1.16 (Jun. 08, 2017)
 -----------------------
 - Added Truth <Seal of Broken Fate Shipment> and High Priestess Mourn 
