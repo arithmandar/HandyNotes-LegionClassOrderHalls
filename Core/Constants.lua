@@ -38,6 +38,7 @@ constants.defaults = {
 		show_flight = true,
 		show_lightsHeart = true,
 		show_sealOrder = true,
+		show_alltalents = true,
 		show_others = true,
 	},
 	char = {

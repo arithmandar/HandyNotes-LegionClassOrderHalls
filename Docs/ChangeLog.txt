@@ -3,6 +3,13 @@ $Id$
 Revision History:
 =================
 
+* v1.19 (Jun. xx, 2017)
+-----------------------
+- Added Almenis <Seal of Broken Fate Shipment> to Druid's order hall
+- Added Researcher Tulius <Seal of Broken Fate Shipment> to Mage's order hall
+- Added Mal <Weapons Smuggler> (Champion Armaments) to Rogue's order hall
+- Added option to toggle show / hide un-researched order hall advancement's NPC
+
 * v1.18 (Jun. 13, 2017)
 -----------------------
 - Added Demonia Pickerin and Galen Foul to Warlock's order hall

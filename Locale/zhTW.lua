@@ -54,6 +54,8 @@ L["Show portal's locations."] = "顯示傳送門位置。"
 L["Show flight master's location."] = "顯示飛行管理員位置。"
 L["Show the location of Light's Heart."] = "顯示聖光之心位置。"
 L["Show the location of Seal of Broken Fate vendor."] = "顯示破碎命運徽印商人的位置。"
+L["Un-researched"] = "未研究"
+L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "顯示所有可下訂單的 NPC 位置，即便其對應的職業大廳升級未被研究。"
 L["Others"] = "其他"
 L["Show all the other POIs."] = "顯示所有其他的 POI 點。"
 -- AddOn Settings
@@ -141,7 +143,8 @@ L["Requires Wardens of the Grove order advancement"] = "需要「林地看守者
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "夏隆星 <幻夢之林看守者招募員>" -- 108391
 L["Treant Sapling <Ancient of War Tender>"] = "樹人幼苗 <戰爭古樹看管者>" -- 111786
 L["Requires Ancient of War order advancement"] = "需要「戰爭古樹」的職業大廳升級"
---L["Ancient of War"] = "Ancient of War"
+L["Almenis <Seal of Broken Fate Shipment>"] = "雅曼妮絲 <破碎命運徽印貨物>" -- 110810
+L["Requires Elune's Chosen order advancement"] = "需要「伊露恩之選」的職業大廳升級"
 
 -- //////////////////////////
 -- Hunter
@@ -193,6 +196,8 @@ L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "守護者雅菈 <祈倫托
 L["Conjurer Awlyn"] = "咒術師歐琳" -- 111734
 L["Requires Might of Dalaran order advancement"] = "需要「達拉然之力」的職業大廳升級"
 L["Focusing Crystal"] = "水晶法器"
+L["Researcher Tulius <Seal of Broken Fate Shipment>"] = "研究員涂里斯 <破碎命運徽印貨物>" -- 112982
+L["Requires Arcane Divination order advancement"] = "需要「秘法占卜」的職業大廳升級"
 
 -- //////////////////////////
 -- Monk
@@ -215,6 +220,8 @@ L["Tianili <Celestial Trainer>"] = "田倪勵 <天尊訓練師>" -- 106538
 L["Requires Celestial Favor order advancement"] = "需要「天尊恩賜」的職業大廳升級"
 L["Master Swoo <Masters of Serenity Recruiter>"] = "蘇悟大師 <冰心大師招募員>" -- 120145
 L["Requires Masters of the Path order advancement"] = "需要「尋道大師」的職業大廳升級"
+
+L["Requires One with Destiny order advancement"] = "需要「完成天命」的職業大廳升級"
 
 -- //////////////////////////
 -- Paladin
@@ -265,6 +272,7 @@ L["Truth <Seal of Broken Fate Shipment>"] = "真理 <破碎命運徽印貨物>" 
 L["Requires Blessed Seals order advancement"] = "需要「祝福徽印」的職業大廳升級"
 L["High Priestess Mourn <Recruiter>"] = "高階祭司莫恩 <招募員>" -- 120160
 L["Requires Hooded Priests order advancement"] = "需要「神秘的牧師」的職業大廳升級"
+
 -- //////////////////////////
 -- Rogue
 -- //////////////////////////
@@ -291,6 +299,7 @@ L["Scythe <Seal of Broken Fate Shipment>"] = "鐮刀 <破碎命運徽印貨物>"
 L["Requires Plunder order advancement"] = "需要「掠奪」的職業大廳升級"
 L["Laura Stern <Recruiter>"] = "蘿拉·史騰 <招募員>" -- 120162
 L["Requires Ravenholdt's Finest order advancement"] = "需要「拉文霍德精兵」的職業大廳升級"
+L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>" -- 110348
 
 -- //////////////////////////
 -- Shaman
@@ -340,7 +349,7 @@ L["Imp Mother Dyala <Recruiter>"] = "鬼母戴亞拉 <招募員>"
 L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級官>"
 L["Murr"] = "穆爾"
 L["Demonia Pickerin"] = "黛莫妮亞·皮克林" -- 113371
-L["Requires Demonia Pickerin order advancement"] = "需要「釋放煉獄火」的職業大廳升級"
+L["Requires Unleash Infernal order advancement"] = "需要「釋放煉獄火」的職業大廳升級"
 L["Demonic Phylactery"] = "惡魔骨匣"
 L["Galen Foul <Demon Summoner>"] = "加林·腐惡 <惡魔召喚師>" -- 120166
 L["Requires Demonic Brutes order advancement"] = "需要「惡魔蠻卒」的職業大廳升級"

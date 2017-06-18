@@ -53,6 +53,8 @@ L["Show portal's locations."] = "Show portal's locations."
 L["Show flight master's location."] = "Show flight master's location."
 L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
 L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
+L["Un-researched"] = "Un-researched"
+L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
 L["Others"] = "Others"
 L["Show all the other POIs."] = "Show all the other POIs."
 -- AddOn Settings
@@ -140,7 +142,8 @@ L["Requires Wardens of the Grove order advancement"] = "Requires Wardens of the 
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "Shalorn Star <Dreamgrove Warden Recruiter>" -- 108391
 L["Treant Sapling <Ancient of War Tender>"] = "Treant Sapling <Ancient of War Tender>" -- 111786
 L["Requires Ancient of War order advancement"] = "Requires Ancient of War order advancement"
---L["Ancient of War"] = "Ancient of War"
+L["Almenis <Seal of Broken Fate Shipment>"] = "Almenis <Seal of Broken Fate Shipment>" -- 110810
+L["Requires Elune's Chosen order advancement"] = "Requires Elune's Chosen order advancement"
 
 -- //////////////////////////
 -- Hunter
@@ -192,6 +195,8 @@ L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "Guardian Alar <Kirin Tor G
 L["Conjurer Awlyn"] = "Conjurer Awlyn" -- 111734
 L["Requires Might of Dalaran order advancement"] = "Requires Might of Dalaran order advancement"
 L["Focusing Crystal"] = "Focusing Crystal"
+L["Researcher Tulius <Seal of Broken Fate Shipment>"] = "Researcher Tulius <Seal of Broken Fate Shipment>" -- 112982
+L["Requires Arcane Divination order advancement"] = "Requires Arcane Divination order advancement"
 
 -- //////////////////////////
 -- Monk
@@ -214,6 +219,8 @@ L["Tianili <Celestial Trainer>"] = "Tianili <Celestial Trainer>" -- 106538
 L["Requires Celestial Favor order advancement"] = "Requires Celestial Favor order advancement"
 L["Master Swoo <Masters of Serenity Recruiter>"] = "Master Swoo <Masters of Serenity Recruiter>" -- 120145
 L["Requires Masters of the Path order advancement"] = "Requires Masters of the Path order advancement"
+
+L["Requires One with Destiny order advancement"] = "Requires One with Destiny order advancement"
 
 -- //////////////////////////
 -- Paladin
@@ -291,6 +298,7 @@ L["Scythe <Seal of Broken Fate Shipment>"] = "Scythe <Seal of Broken Fate Shipme
 L["Requires Plunder order advancement"] = "Requires Plunder order advancement"
 L["Laura Stern <Recruiter>"] = "Laura Stern <Recruiter>" -- 120162
 L["Requires Ravenholdt's Finest order advancement"] = "Requires Ravenholdt's Finest order advancement"
+L["Mal <Weapons Smuggler>"] = "Mal <Weapons Smuggler>" -- 110348
 
 -- //////////////////////////
 -- Shaman
@@ -340,7 +348,7 @@ L["Imp Mother Dyala <Recruiter>"] = "Imp Mother Dyala <Recruiter>" -- 106216
 L["Archivist Melinda <Class Hall Upgrades>"] = "Archivist Melinda <Class Hall Upgrades>" -- 108018
 L["Murr"] = "Murr" -- 110408
 L["Demonia Pickerin"] = "Demonia Pickerin" -- 113371
-L["Requires Demonia Pickerin order advancement"] = "Requires Demonia Pickerin order advancement"
+L["Requires Unleash Infernal order advancement"] = "Requires Unleash Infernal order advancement"
 L["Demonic Phylactery"] = "Demonic Phylactery"
 L["Galen Foul <Demon Summoner>"] = "Galen Foul <Demon Summoner>" -- 120166
 L["Requires Demonic Brutes order advancement"] = "Requires Demonic Brutes order advancement"

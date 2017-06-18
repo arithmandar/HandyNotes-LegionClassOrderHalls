@@ -131,6 +131,12 @@ config.options = {
 					desc = L["Show the location of Seal of Broken Fate vendor."],
 					order = 30,
 				},
+				show_alltalents = {
+					type = "toggle",
+					name = L["Un-researched"],
+					desc = L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."],
+					order = 31,
+				},
 				show_others = {
 					type = "toggle",
 					name = L["Others"],
