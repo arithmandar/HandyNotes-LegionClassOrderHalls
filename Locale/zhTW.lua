@@ -220,7 +220,7 @@ L["Tianili <Celestial Trainer>"] = "田倪勵 <天尊訓練師>" -- 106538
 L["Requires Celestial Favor order advancement"] = "需要「天尊恩賜」的職業大廳升級"
 L["Master Swoo <Masters of Serenity Recruiter>"] = "蘇悟大師 <冰心大師招募員>" -- 120145
 L["Requires Masters of the Path order advancement"] = "需要「尋道大師」的職業大廳升級"
-
+L["Yushi <Seal of Broken Fate Shipment>"] = "遊曦 <破碎命運徽印貨物>" -- 110817
 L["Requires One with Destiny order advancement"] = "需要「完成天命」的職業大廳升級"
 
 -- //////////////////////////

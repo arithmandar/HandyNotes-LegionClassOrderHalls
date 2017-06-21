@@ -219,7 +219,7 @@ L["Tianili <Celestial Trainer>"] = "Tianili <Celestial Trainer>" -- 106538
 L["Requires Celestial Favor order advancement"] = "Requires Celestial Favor order advancement"
 L["Master Swoo <Masters of Serenity Recruiter>"] = "Master Swoo <Masters of Serenity Recruiter>" -- 120145
 L["Requires Masters of the Path order advancement"] = "Requires Masters of the Path order advancement"
-
+L["Yushi <Seal of Broken Fate Shipment>"] = "Yushi <Seal of Broken Fate Shipment>" -- 110817
 L["Requires One with Destiny order advancement"] = "Requires One with Destiny order advancement"
 
 -- //////////////////////////

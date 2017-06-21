@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.20 (Jun. 22, 2017)
+-----------------------
+- Added Yushi <Seal of Broken Fate Shipment> to Monk's order hall
+- Localization update:
+  - German (pas06)
+
 * v1.19 (Jun. 19, 2017)
 -----------------------
 - Added Almenis <Seal of Broken Fate Shipment> to Druid's order hall
