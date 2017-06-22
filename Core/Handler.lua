@@ -30,7 +30,7 @@ addon.description 	= private.description
 addon.pluginName 	= private.pluginName
 
 addon.Name = FOLDER_NAME;
-_G.HandyNotes_LegionClassOrderHalls = addon;
+_G.HandyNotes_LegionClassOrderHalls = addon
 
 -- //////////////////////////////////////////////////////////////////////////
 -- get creature's name from server
