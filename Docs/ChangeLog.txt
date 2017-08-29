@@ -3,6 +3,11 @@ $Id$
 Revision History:
 =================
 
+* v1.21 (Aug. 29, 2017)
+-----------------------
+- ToC update to support WoW 7.3.0
+- Lib Update: LibUIDropDownMenu, LibBabble-SubZone-3.0
+
 * v1.20 (Jun. 22, 2017)
 -----------------------
 - Added Yushi <Seal of Broken Fate Shipment> to Monk's order hall

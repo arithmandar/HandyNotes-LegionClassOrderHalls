@@ -161,7 +161,7 @@ config.options = {
 					type = "toggle",
 					name = L["Show note"],
 					desc = L["Show the node's additional notes when it's available."],
-					order = 40,
+					order = 11,
 				},
 				unhide = {
 					type = "execute",
