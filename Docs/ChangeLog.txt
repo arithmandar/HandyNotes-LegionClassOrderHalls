@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.25 (Sep. 11, 2017)
+-----------------------
+- Added Mac'Aree
+
 * v1.24 (Sep. 10, 2017)
 -----------------------
 - Fixed ToC libraries loading
