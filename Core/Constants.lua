@@ -39,6 +39,7 @@ constants.defaults = {
 		show_lightsHeart = true,
 		show_sealOrder = true,
 		show_alltalents = true,
+		show_beacon = true,
 		show_others = true,
 	},
 	char = {
@@ -86,6 +87,7 @@ constants.icon_texture = {
 			icon = OBJECTICONS,
 			tCoordLeft = 0.125, tCoordRight = 0.25, tCoordTop = 0.875, tCoordBottom = 1 },
 	MONK 		= "Interface\\AddOns\\HandyNotes_LegionClassOrderHalls\\Images\\artifactbook-monk-fists",
+	beacon		= "Interface\\AddOns\\HandyNotes_LegionClassOrderHalls\\Images\\Beacon",
 }
 
 -- Define the default icon here

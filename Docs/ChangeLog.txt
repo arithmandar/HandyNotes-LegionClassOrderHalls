@@ -3,6 +3,10 @@ $Id$
 Revision History:
 =================
 
+* v1.23 (Sep. 10, 2017)
+-----------------------
+- Added the Vindicaar
+
 * v1.22 (Aug. 31, 2017)
 -----------------------
 - Lib Update: LibUIDropDownMenu

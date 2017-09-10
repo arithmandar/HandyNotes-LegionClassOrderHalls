@@ -55,6 +55,8 @@ L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
 L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
 L["Un-researched"] = "Un-researched"
 L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
+L["Navigation Console"] = "Navigation Console"
+L["Show Navigation Console's location in the Vindicaar."] = "Show Navigation Console's location in the Vindicaar."
 L["Others"] = "Others"
 L["Show all the other POIs."] = "Show all the other POIs."
 -- AddOn Settings

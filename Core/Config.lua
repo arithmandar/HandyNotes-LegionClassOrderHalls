@@ -137,6 +137,12 @@ config.options = {
 					desc = L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."],
 					order = 31,
 				},
+				show_beacon = {
+					type = "toggle",
+					name = L["Navigation Console"],
+					desc = L["Show Navigation Console's location in the Vindicaar."],
+					order = 31,
+				},
 				show_others = {
 					type = "toggle",
 					name = L["Others"],
