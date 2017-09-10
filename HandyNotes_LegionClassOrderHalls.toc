@@ -31,7 +31,8 @@
 #@end-debug@
 ## Author: arith
 ## Version: @project-version@
-## RequiredDeps: HandyNotes, LibBabble-SubZone-3.0, LibUIDropDownMenu
+## RequiredDeps: HandyNotes
+## OptionalDeps: LibBabble-SubZone-3.0, LibUIDropDownMenu
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_LegionClassOrderHallsDB
 ## X-Date: @project-date-iso@
