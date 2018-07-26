@@ -94,5 +94,5 @@ constants.icon_texture = {
 constants.defaultIcon = constants.icon_texture["yellowButton"]
 
 constants.events = {
-	"CLOSE_WORLD_MAP",
+--	"CLOSE_WORLD_MAP",
 };
