@@ -39,7 +39,7 @@ private.DB = DB
 
 DB.points = {
 	--[[ structure:
-	[mapFile] = { -- "_terrain1" etc will be stripped from attempts to fetch this
+	[mapID] = { -- "_terrain1" etc will be stripped from attempts to fetch this
 		[coord] = {
 			label=[string], 		-- label: text that'll be the label, optional
 			npc=[id], 				-- related npc id, used to display names in tooltip
