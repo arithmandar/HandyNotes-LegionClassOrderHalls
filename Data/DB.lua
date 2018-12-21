@@ -421,7 +421,7 @@ DB.points = {
 		[62322271] = { portal=true, label=format(L["Portal to %s"], BZ["Emerald Dreamway"]), class="DRUID" },
 	},
 	-- World
-	[947] = {
+	[947] = { -- need to check if this map ID is correct
 		[56593757] = { portal=true, L["Portal"], class="DRUID" }, -- The Dreamgrove
 		[57091776] = { portal=true, L["Portal"], class="DRUID" }, -- Grizzly Hills
 		[15106137] = { portal=true, L["Portal"], class="DRUID" }, -- Feralas
