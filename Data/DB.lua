@@ -188,7 +188,7 @@ DB.points = {
 		[52545781] = { others=true, label=L["High Elder Cloudfall"], npc=104744 },
 		[54795663] = { others=true, label=L["Elder Xang <Monk Trainer>"], npc=101749 },
 	},
-	[676] = { -- Paladin
+	[24] = { -- Paladin
 		[53427865] = { mission=true, dungeonLevel=20, label=ADVENTURE_MAP_TITLE, note=ORDER_HALL_MISSIONS },
 		[53295617] = { recruiter=true, dungeonLevel=20, label=L["Commander Ansela <Silver Hand Recruiter>"], npc=106447, note=CAPACITANCE_START_RECRUITMENT },
 		[58893898] = { recruiter=true, dungeonLevel=20, label=L["Commander Born <Silver Hand Officer Recruiter>"], npc=106448, note=CAPACITANCE_START_RECRUITMENT },
