@@ -431,12 +431,12 @@ DB.points = {
 		[89884473] = { portal=true, L["Portal"], class="DRUID" }, -- The Hinterlands
 	},
 	-- The Vindicaar
-	[886] = { -- Antoran Wastes, Level 5
+	[887] = { -- Antoran Wastes, Level 5
 		[62656402] = { others=true, dungeonLevel=5, label=L["Vindicator Jaelaana <Army of the Light Emissary>"], npc=127120, },
 		[56312878] = { others=true, dungeonLevel=5, label=L["Toraan the Revered <Argussian Reach Emissary>"], npc=127151, },
 		[31995648] = { beacon=true, dungeonLevel=5, label=L["Navigation Console"], npc=123139, icon="beacon", },
 	},
-	[885] = { -- Antoran Wastes, Level 6
+	[886] = { -- Antoran Wastes, Level 6
 		[33935591] = { portal=true, dungeonLevel=6, label=format(L["Portal to %s"], BZ["Dalaran"]), },
 		[46755120] = { others=true, dungeonLevel=6, label=L["Vindicaar Matrix Core"], },
 		[61675913] = { others=true, dungeonLevel=6, label=L["Thaumaturge Vashreen <Purveyor of Exquisite Furnishings>"], npc=121589, },
