@@ -3,6 +3,12 @@ $Id$
 Revision History:
 =================
 
+* v1.36 (Oct. 18, 2020)
+------------------------
+- Toc update to support WoW 9.0.1
+- Updated deprecated function call
+  - WorldMapTooltip
+
 * v1.35 (Jul. 26, 2020)
 ------------------------
 - Library update: LibBabble-SubZone
