@@ -10,6 +10,9 @@ local format, gsub = string.format, string.gsub
 local next, wipe, pairs, select, type = next, wipe, pairs, select, type
 local C_Spell = _G.C_Spell
 local GameTooltip, GetSpellInfo, CreateFrame, UnitClass = _G.GameTooltip, C_Spell.GetSpellInfo, _G.CreateFrame, _G.UnitClass
+local C_Garrison = _G.C_Garrison
+local GetTalentInfo = C_Garrison.GetTalentInfo
+
 --local UIDropDownMenu_CreateInfo, CloseDropDownMenus, UIDropDownMenu_AddButton, ToggleDropDownMenu = L_UIDropDownMenu_CreateInfo, L_CloseDropDownMenus, L_UIDropDownMenu_AddButton, L_ToggleDropDownMenu
 
 local WorldMapTooltip = GameTooltip
@@ -238,7 +241,7 @@ end
 
 local function isTalentResearched(talentID)
 	if not talentID or type(talentID) ~= "number" then return end
-	local talent = C_Garrison.GetTalent(talentID)
+	local talent = GetTalentInfo(talentID)
 	if talent.researched then 
 		return talent.researched
 	else
