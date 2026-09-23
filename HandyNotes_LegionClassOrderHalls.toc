@@ -1,34 +1,26 @@
-﻿## Interface: 100007
-#@non-debug@
-## Title: @localization(locale="enUS", key="Title", namespace="ToC")@
-## Title-deDE: @localization(locale="deDE", key="Title", namespace="ToC")@
-## Title-esES: @localization(locale="esES", key="Title", namespace="ToC")@
-## Title-esMX: @localization(locale="esMX", key="Title", namespace="ToC")@
-## Title-frFR: @localization(locale="frFR", key="Title", namespace="ToC")@
-## Title-itIT: @localization(locale="itIT", key="Title", namespace="ToC")@
-## Title-koKR: @localization(locale="koKR", key="Title", namespace="ToC")@
-## Title-ptBR: @localization(locale="ptBR", key="Title", namespace="ToC")@
-## Title-ruRU: @localization(locale="ruRU", key="Title", namespace="ToC")@
-## Title-zhCN: @localization(locale="zhCN", key="Title", namespace="ToC")@
-## Title-zhTW: @localization(locale="zhTW", key="Title", namespace="ToC")@
-## Notes: @localization(locale="enUS", key="Description", namespace="ToC")@
-## Notes-deDE: @localization(locale="deDE", key="Description", namespace="ToC")@
-## Notes-esES: @localization(locale="esES", key="Description", namespace="ToC")@
-## Notes-esMX: @localization(locale="esMX", key="Description", namespace="ToC")@
-## Notes-frFR: @localization(locale="frFR", key="Description", namespace="ToC")@
-## Notes-itIT: @localization(locale="itIT", key="Description", namespace="ToC")@
-## Notes-koKR: @localization(locale="koKR", key="Description", namespace="ToC")@
-## Notes-ptBR: @localization(locale="ptBR", key="Description", namespace="ToC")@
-## Notes-ruRU: @localization(locale="ruRU", key="Description", namespace="ToC")@
-## Notes-zhCN: @localization(locale="zhCN", key="Description", namespace="ToC")@
-## Notes-zhTW: @localization(locale="zhTW", key="Description", namespace="ToC")@
-#@end-non-debug@
-#@debug@
+﻿## Interface: 120100
 ## Title: HandyNotes - Legion Class Order Halls
-## Title-zhTW: HandyNotes - 職業大廳
-## Notes: Shows the NPC locations and major POIs in Class Order Halls
-## Notes-zhTW: 顯示各職業大廳裡 NPC 與主要的 POI 的位置
-#@end-debug@
+## Notes: Shows major NPC locations and points of interest in Class Order Halls
+## Title-deDE: HandyNotes – Klassenordenshallen von Legion
+## Notes-deDE: Zeigt wichtige NPC-Standorte und interessante Orte in den Klassenordenshallen an
+## Title-esES: HandyNotes: Sedes de clase de Legion
+## Notes-esES: Muestra ubicaciones de PNJ importantes y puntos de interés en las sedes de clase
+## Title-esMX: HandyNotes: Sedes de clase de Legion
+## Notes-esMX: Muestra ubicaciones de PNJ importantes y puntos de interés en las sedes de clase
+## Title-frFR: HandyNotes – Domaines de classe de Legion
+## Notes-frFR: Affiche l’emplacement des PNJ importants et les points d’intérêt dans les domaines de classe
+## Title-itIT: HandyNotes - Sale dell’ordine di classe di Legion
+## Notes-itIT: Mostra le posizioni dei PNG principali e i punti d’interesse nelle sale dell’ordine di classe
+## Title-koKR: HandyNotes - 군단 직업 연맹 전당
+## Notes-koKR: 직업 연맹 전당의 주요 NPC 위치와 관심 지점을 표시합니다
+## Title-ptBR: HandyNotes - Salões de Classe de Legion
+## Notes-ptBR: Mostra as localizações dos PNJs principais e pontos de interesse nos salões de classe
+## Title-ruRU: HandyNotes — Оплоты классов Legion
+## Notes-ruRU: Показывает расположение важных NPC и достопримечательности в классовых оплотах
+## Title-zhCN: HandyNotes - 军团再临职业大厅
+## Notes-zhCN: 显示职业大厅中主要 NPC 的位置和兴趣点
+## Title-zhTW: HandyNotes - 軍臨天下職業大廳
+## Notes-zhTW: 顯示職業大廳中主要 NPC 的位置和興趣點
 ## Author: arith
 ## Version: @project-version@
 ## RequiredDeps: HandyNotes
@@ -38,6 +30,18 @@
 ## X-Date: @project-date-iso@
 ## X-License: GPLv2
 ## X-Category: Map
+## Category: Map
+## Category-deDE: Karte
+## Category-esES: Mapa
+## Category-esMX: Mapa
+## Category-frFR: Carte
+## Category-itIT: Mappa
+## Category-koKR: 지도
+## Category-ptBR: Mapa
+## Category-ruRU: Карта
+## Category-zhCN: 地图
+## Category-zhTW: 地圖
+## IconTexture: Interface\icons\trade_engineering
 
 Libs\Libs.xml
 Locale\Locales.xml

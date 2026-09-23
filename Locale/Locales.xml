@@ -2,15 +2,15 @@
 <!-- $Id$
 -->
 <Ui xmlns="http://www.blizzard.com/wow/ui/"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-	<Script file="enUS.lua"/>
-	<Script file="deDE.lua"/>
-	<Script file="esES.lua"/>
-	<Script file="esMX.lua"/>
-	<Script file="frFR.lua"/>
-	<Script file="itIT.lua"/>
-	<Script file="koKR.lua"/>
-	<Script file="ptBR.lua"/>
-	<Script file="ruRU.lua"/>
-	<Script file="zhCN.lua"/>
-	<Script file="zhTW.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-enUS.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-deDE.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-esES.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-esMX.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-frFR.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-itIT.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-koKR.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-ptBR.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-ruRU.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-zhCN.lua"/>
+	<Script file="HandyNotes_LegionClassOrderHalls-zhTW.lua"/>
 </Ui>

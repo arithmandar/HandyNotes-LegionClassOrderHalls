@@ -8,7 +8,8 @@ local _G = getfenv(0)
 local string = _G.string
 local format, gsub = string.format, string.gsub
 local next, wipe, pairs, select, type = next, wipe, pairs, select, type
-local GameTooltip, GetSpellInfo, CreateFrame, UnitClass = _G.GameTooltip, _G.GetSpellInfo, _G.CreateFrame, _G.UnitClass
+local C_Spell = _G.C_Spell
+local GameTooltip, GetSpellInfo, CreateFrame, UnitClass = _G.GameTooltip, C_Spell.GetSpellInfo, _G.CreateFrame, _G.UnitClass
 --local UIDropDownMenu_CreateInfo, CloseDropDownMenus, UIDropDownMenu_AddButton, ToggleDropDownMenu = L_UIDropDownMenu_CreateInfo, L_CloseDropDownMenus, L_UIDropDownMenu_AddButton, L_ToggleDropDownMenu
 
 local WorldMapTooltip = GameTooltip
@@ -41,14 +42,15 @@ local profile
 
 -- //////////////////////////////////////////////////////////////////////////
 -- get creature's name from server
-local mcache_tooltip = CreateFrame("GameTooltip", private.addon_name.."_mcacheToolTip", UIParent, "GameTooltipTemplate")
-local creature_cache
-
--- activation code
+-- Resolve a localized creature name without relying on a hidden tooltip frame.
+-- Adopted codes by Anon_clever_blackwell3419476
 local function getCreatureNamebyID(id)
-	mcache_tooltip:SetOwner(UIParent, "ANCHOR_NONE")
-	mcache_tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
-	creature_cache = _G[private.addon_name.."_mcacheToolTipTextLeft1"]:GetText()
+	local tooltipData = C_TooltipInfo.GetHyperlink(("unit:Creature-0-0-0-0-%d"):format(id))
+	local firstLine = tooltipData and tooltipData.lines and tooltipData.lines[1]
+	local name = firstLine and firstLine.leftText
+	if name and (not issecretvalue or not issecretvalue(name)) then
+		return name
+	end
 end
 -- //////////////////////////////////////////////////////////////////////////
 local function work_out_texture(point)
@@ -111,21 +113,16 @@ local function handle_tooltip(tooltip, point)
 	if point then
 		if (point.label) then
 			if (point.npc and profile.query_server) then
-				getCreatureNamebyID(point.npc)
-				if creature_cache then
-					tooltip:SetHyperlink(("unit:Creature-0-0-0-0-%d"):format(point.npc))
-					creature_cache = nil
-				else
-					tooltip:AddLine(point.label)
-				end
+				local creatureName = getCreatureNamebyID(point.npc)
+				tooltip:AddLine(creatureName or point.label)
 			else
 				tooltip:AddLine(point.label)
 			end
 		end
 		if (point.spell) then
-			local spellName = GetSpellInfo(point.spell)
-			if (spellName) then
-				tooltip:AddLine(spellName, 1, 1, 1, true)
+			local spellinofo = GetSpellInfo(point.spell)
+			if (spellinofo and spellinofo.name) then
+				tooltip:AddLine(spellinofo.name, 1, 1, 1, true)
 			end
 		end
 		if (point.note and profile.show_note) then

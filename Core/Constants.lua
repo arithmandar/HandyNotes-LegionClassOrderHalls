@@ -1,4 +1,4 @@
--- $Id$
+                                                                                                                                     -- $Id$
 -----------------------------------------------------------------------
 -- Upvalued Lua API.
 -----------------------------------------------------------------------
@@ -80,9 +80,11 @@ constants.icon_texture = {
 	greenButton 	= { 
 			icon = OBJECTICONS,
 			tCoordLeft = 0.5, tCoordRight = 0.625, tCoordTop = 0, tCoordBottom = 0.125 },
+	--[[
 	mission = {
 			icon = OBJECTICONS,
 			tCoordLeft = 0.625, tCoordRight = 0.75, tCoordTop = 0.5, tCoordBottom = 0.625 },
+	]]
 	portal 		= {
 			icon = OBJECTICONS,
 			tCoordLeft = 0.125, tCoordRight = 0.25, tCoordTop = 0.875, tCoordBottom = 1 },
