@@ -1,4 +1,5 @@
--- $Id$
+local _G = getfenv(0)
+local LibStub = _G.LibStub
 
 local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_LegionClassOrderHalls", "frFR", false)
 
@@ -8,9 +9,9 @@ if L then
 -- //////////////////////////
 -- Addon
 -- //////////////////////////
--- L["HandyNotes - Class Order Halls"] = "HandyNotes - Class Order Halls"
--- L["Class Order Halls"] = "Class Order Halls"
--- L["Shows the NPC locations and major POIs in Class Order Halls"] = "Shows the NPC locations and major POIs in Class Order Halls"
+L["HandyNotes - Class Order Halls"] = "HandyNotes - Domaines de classe"
+L["Class Order Halls"] = "Domaines de classe"
+L["Shows the NPC locations and major POIs in Class Order Halls"] = "Affiche les emplacements des PNJ et les principaux points d’intérêt dans les domaines de classe"
 
 -- //////////////////////////
 -- Common
@@ -19,59 +20,59 @@ L["Portal to %s"] = "Portail vers %s"
 L["Training Dummies"] = "Mannequin d’entraînement"
 L["Travel to %s"] = "Voyager vers %s"
 L["Entrance"] = "Entrée"
--- L["Ramp to lower floor"] = "Ramp to lower floor"
--- L["Ramp to top floor"] = "Ramp to top floor"
+L["Ramp to lower floor"] = "Rampe vers l’étage inférieur"
+L["Ramp to top floor"] = "Rampe vers l’étage supérieur"
 L["Champion Armaments"] = "Armement de champion" -- Quest: 44228
 L["Travel to:"] = "Voyage vers : "
 L["Light's Heart"] = "Cœur de la Lumière"
 L["Portal"] = "Portail"
 L["Artifact Research"] = "Recherches sur les armes prodigieuses"
--- L["Class Hall Quartermaster"] = "Class Hall Quartermaster"
+L["Class Hall Quartermaster"] = "Intendant du domaine de classe"
 L["Seal of Broken Fate"] = "Sceau du destin brisé"
 
 -- //////////////////////////
 -- Configs
 -- //////////////////////////
 -- Icon Settings
--- L["These settings control the look and feel of the icon."] = "These settings control the look and feel of the icon."
--- L["Icon settings"] = "Icon settings"
--- L["Icon Scale"] = "Icon Scale"
+L["These settings control the look and feel of the icon."] = "These settings control the look and feel of the icon."
+L["Icon settings"] = "Paramètres des icônes"
+L["Icon Scale"] = "Échelle des icônes"
 L["The scale of the icons"] = "L'échelle des icônes"
--- L["Icon Alpha"] = "Icon Alpha"
+L["Icon Alpha"] = "Transparence des icônes"
 L["The alpha transparency of the icons"] = "Transparence des icônes"
 -- What to Display
--- L["What to display"] = "What to display"
--- L["These settings control what type of icons to be displayed."] = "These settings control what type of icons to be displayed on the WorldMap and Minimap."
--- L["Show the node where you can manage your class hall missions."] = "Show the node where you can manage your class hall missions."
--- L["Show the recruiter's locations."] = "Show the recruiter's locations."
--- L["Show the class hall researcher's location."] = "Show the class hall researcher's location."
--- L["Show the Champion Armaments NPC's location."] = "Show the Champion Armaments NPC's location."
--- L["Show the class hall quartermaster's location."] = "Show the class hall quartermaster's location."
--- L["Show the location of the NPC where you can learn for your class hall upgrade."] = "Show the location of the NPC where you can learn for your class hall upgrade."
--- L["Show the location of your class hall forge where you can manage your artifact power."] = "Show the location of your class hall forge where you can manage your artifact power."
--- L["Show portal's locations."] = "Show portal's locations."
--- L["Show flight master's location."] = "Show flight master's location."
--- L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
--- L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
--- L["Un-researched"] = "Un-researched"
--- L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
+L["What to display"] = "Éléments à afficher"
+L["These settings control what type of icons to be displayed."] = "These settings control what type of icons to be displayed on the WorldMap and Minimap."
+L["Show the node where you can manage your class hall missions."] = "Show the node where you can manage your class hall missions."
+L["Show the recruiter's locations."] = "Show the recruiter's locations."
+L["Show the class hall researcher's location."] = "Show the class hall researcher's location."
+L["Show the Champion Armaments NPC's location."] = "Show the Champion Armaments NPC's location."
+L["Show the class hall quartermaster's location."] = "Show the class hall quartermaster's location."
+L["Show the location of the NPC where you can learn for your class hall upgrade."] = "Show the location of the NPC where you can learn for your class hall upgrade."
+L["Show the location of your class hall forge where you can manage your artifact power."] = "Show the location of your class hall forge where you can manage your artifact power."
+L["Show portal's locations."] = "Show portal's locations."
+L["Show flight master's location."] = "Show flight master's location."
+L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
+L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
+L["Un-researched"] = "Un-researched"
+L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
 L["Navigation Console"] = "Console de navigation"
--- L["Show Navigation Console's location in the Vindicaar."] = "Show Navigation Console's location in the Vindicaar."
+L["Show Navigation Console's location in the Vindicaar."] = "Show Navigation Console's location in the Vindicaar."
 L["Others"] = "Autres"
--- L["Show all the other POIs."] = "Show all the other POIs."
+L["Show all the other POIs."] = "Show all the other POIs."
 -- AddOn Settings
--- L["AddOn Settings"] = "AddOn Settings"
--- L["Query from server"] = "Query from server"
--- L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."
+L["AddOn Settings"] = "Paramètres de l’addon"
+L["Query from server"] = "Interroger le serveur"
+L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."
 L["Show note"] = "Afficher les notes"
--- L["Show the node's additional notes when it's available."] = "Show the node's additional notes when it's available."
--- L["Reset hidden nodes"] = "Reset hidden nodes"
--- L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
+L["Show the node's additional notes when it's available."] = "Show the node's additional notes when it's available."
+L["Reset hidden nodes"] = "Réinitialiser les nœuds masqués"
+L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
 
 -- //////////////////////////
 -- Death Knight
 -- //////////////////////////
--- L["Portal to another floor"] = "Portal to another floor"
+L["Portal to another floor"] = "Portal to another floor"
 L["Soul Forge"] = "Forge des âmes"
 L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie la banshee <Spécialiste de mission>" -- 93568
 L["Highlord Darion Mograine"] = "Généralissime Darion Mograine" -- 93437
@@ -88,9 +89,9 @@ L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "Korgaz Mortehache <Recruteur de
 L["Salanar the Horseman"] = "Salanar le Cavalier" -- 111480
 L["Thassarian"] = "Thassarian" -- 93456
 L["King Thoras Trollbane"] = "Roi Thoras Trollemort" -- 113419
--- L["Requires Frost Wyrm work order advancement"] = "Requires Frost Wyrm work order advancement"
+L["Requires Frost Wyrm work order advancement"] = "Requires Frost Wyrm work order advancement"
 L["Frost Crux"] = "Cœur de givre"
--- L["Requires Frost and Death order advancement"] = "Requires Frost and Death order advancement"
+L["Requires Frost and Death order advancement"] = "Requires Frost and Death order advancement"
 L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "Eran Droll <Recruteur des chevaliers d'ébène saccage-givre>" -- 120135
 L["Winter Payne"] = "Frimas Dolor" -- 111634
 
@@ -115,13 +116,13 @@ L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Améliorati
 L["Belath Dawnblade <Illidari>"] = "Belath Aubelame <Illidari>" -- 108782
 L["Ariana Fireheart <Illidari>"] = "Ariana Flammecœur <Illidari>" -- 103760
 L["Slitesh <Armaments Requisitioner>"] = "Slitesh <Réquisition d’armement>" -- 110433
--- L["Requires Fel Hammer's Wrath order advancement"] = "Requires Fel Hammer's Wrath order advancement"
+L["Requires Fel Hammer's Wrath order advancement"] = "Requires Fel Hammer's Wrath order advancement"
 L["Empowered Rift Core"] = "Noyau de faille surpuissant"
 L["Evelune Soulreaver <Wrath of the Order>"] = "Vesprelune Saccageâme <Courroux de l’ordre>" -- 111775
--- L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
+L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "Shivarra tourmentée <Recruteuse shivarra>" -- 120140
 L["Seer Aleis <Seal of Broken Fate Shipment>"] = "Voyant Aleis <Commande de sceau du destin brisé>" -- 112992
--- L["Requires Focused War Effort order advancement"] = "Requires Focused War Effort order advancement"
+L["Requires Focused War Effort order advancement"] = "Requires Focused War Effort order advancement"
 
 -- //////////////////////////
 -- Druid
@@ -140,12 +141,12 @@ L["Skylord Omnuron <Mission Specialist>"] = "Seigneur du ciel Omnuron <Spéciali
 L["Zen'kiki"] = "Zen’Kiki" -- 98784
 L["Yaris Darkclaw <Recruiter>"] = "Yaris Sombregriffe <Recruteur>" -- 106442
 L["Mylune"] = "Mylune" -- 113525
--- L["Requires Wardens of the Grove order advancement"] = "Requires Wardens of the Grove order advancement"
+L["Requires Wardens of the Grove order advancement"] = "Requires Wardens of the Grove order advancement"
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "Shalorn Étoile <Recruteur des gardiens de la Sylverêve>" -- 108391
 L["Treant Sapling <Ancient of War Tender>"] = "Arbrisseau tréant <Soigneur d’ancien de la guerre>" -- 111786
--- L["Requires Ancient of War order advancement"] = "Requires Ancient of War order advancement"
+L["Requires Ancient of War order advancement"] = "Requires Ancient of War order advancement"
 L["Almenis <Seal of Broken Fate Shipment>"] = "Almenis <Commande de sceau du destin brisé>" -- 110810
--- L["Requires Elune's Chosen order advancement"] = "Requires Elune's Chosen order advancement"
+L["Requires Elune's Chosen order advancement"] = "Requires Elune's Chosen order advancement"
 
 -- //////////////////////////
 -- Hunter
@@ -166,10 +167,10 @@ L["Great Eagle"] = "Aigle royal" -- 108552
 L["Ogdrul <The Seeker>"] = "Ogdrul <Le Chercheur>" -- 113688
 L["Image of Mimiron"] = "Image de Mimiron" -- 110424
 L["Berger the Steadfast <Champion Armaments>"] = "Berger l’Inébranlable <Armement de champion>" -- 110412
--- L["Requires Born of the Night order advancement"] = "Requires Born of the Night order advancement"
+L["Requires Born of the Night order advancement"] = "Requires Born of the Night order advancement"
 L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "Chassenuit Silus <Recruteuse des chasseresses sacrenuit>" -- 106445
 L["Tu'Las the Gifted <Seal of Broken Fate Shipment>"] = "Tu’Las le Talentueux <Commande de sceau du destin brisé>"
--- L["Requires Unseen Path order advancement"] = "Requires Unseen Path order advancement"
+L["Requires Unseen Path order advancement"] = "Requires Unseen Path order advancement"
 
 -- //////////////////////////
 -- Mage
@@ -192,20 +193,20 @@ L["Magister Varenthas <High Forgeguard>"] = "Magistère Varenthas <Grand gardef
 L["Minuette <Armament Summoner>"] = "Minuette <Invocatrice d’armement>" -- 110427
 L["Ari"] = "Ari" -- 109307
 L["Teleportation Nexus"] = "Nexus de téléportation"
--- L["Requires Guardians of the Kirin Tor order advancement"] = "Requires Guardians of the Kirin Tor order advancement"
+L["Requires Guardians of the Kirin Tor order advancement"] = "Requires Guardians of the Kirin Tor order advancement"
 L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "Gardienne Alar <Recruteuse des Gardiens du Kirin Tor>" -- 106434
 L["Conjurer Awlyn"] = "Adjuratrice Awlyn" -- 111734
--- L["Requires Might of Dalaran order advancement"] = "Requires Might of Dalaran order advancement"
+L["Requires Might of Dalaran order advancement"] = "Requires Might of Dalaran order advancement"
 L["Focusing Crystal"] = "Cristal de focalisation"
 L["Researcher Tulius <Seal of Broken Fate Shipment>"] = "Chercheuse Tulius <Commande de sceau du destin brisé>" -- 112982
--- L["Requires Arcane Divination order advancement"] = "Requires Arcane Divination order advancement"
+L["Requires Arcane Divination order advancement"] = "Requires Arcane Divination order advancement"
 
 -- //////////////////////////
 -- Monk
 -- //////////////////////////
 L["Portal to Peak of Serenity"] = "Portail vers le pic de la Sérénité"
 L["Forge of the Roaring Mountain"] = "Forge de la Montagne rugissante"
--- L["Transportation Mandala"] = "Transportation Mandala"
+L["Transportation Mandala"] = "Transportation Mandala"
 L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brillétoile <Pourvoyeuse de fournitures rares>" -- 112338
 L["Master Hsu <Mission Master>"] = "Maître Hsu <Maître des missions>" -- 99179
 L["Elder Xang <Monk Trainer>"] = "Ancien Xang <Maître des moines>" -- 101749
@@ -218,16 +219,16 @@ L["Tianji <Ox Troop Trainer>"] = "Tianji <Instructrice du régiment du Buffl
 L["High Elder Cloudfall"] = "Grand ancien Chute des Nuages" -- 104744
 L["Gin Lai <Tiger Troop Trainer>"] = "Gin Lai <Instructeur du régiment du Tigre>" -- 105019
 L["Tianili <Celestial Trainer>"] = "Tianili <Entraîneur céleste>" -- 106538
--- L["Requires Celestial Favor order advancement"] = "Requires Celestial Favor order advancement"
+L["Requires Celestial Favor order advancement"] = "Requires Celestial Favor order advancement"
 L["Master Swoo <Masters of Serenity Recruiter>"] = "Maître Swoo <Recruteur des maîtres de la sérénité>" -- 120145
--- L["Requires Masters of the Path order advancement"] = "Requires Masters of the Path order advancement"
+L["Requires Masters of the Path order advancement"] = "Requires Masters of the Path order advancement"
 L["Yushi <Seal of Broken Fate Shipment>"] = "Yushi <Commande de sceau du destin brisé>" -- 110817
--- L["Requires One with Destiny order advancement"] = "Requires One with Destiny order advancement"
+L["Requires One with Destiny order advancement"] = "Requires One with Destiny order advancement"
 
 -- //////////////////////////
 -- Paladin
 -- //////////////////////////
--- L["Altar of Ancient Kings"] = "Altar of Ancient Kings"
+L["Altar of Ancient Kings"] = "Altar of Ancient Kings"
 L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sœur Elda <Gardienne des tomes anciens>" -- 91190
 L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Seigneur Grayson Brisombre <Spécialiste de mission>" -- 90250
 L["Katherine the Pure <Paladin Trainer>"] = "Katherine la Pure <Maître des paladins>" -- 92313
@@ -243,18 +244,18 @@ L["Valgar Highforge <Grand Smith of the Order>"] = "Valgar Forge-haute <Grand f
 L["Lord Irulon Trueblade"] = "Seigneur Irulon Lamevraie" -- 99947
 L["Charger Saddle"] = "Selle de destrier"
 L["Terric the Illuminator"] = "Terric l’Illuminateur" -- 111772
--- L["Requires Grand Crusade order advancement"] = "Requires Grand Crusade order advancement"
+L["Requires Grand Crusade order advancement"] = "Requires Grand Crusade order advancement"
 L["Silver Hand Orders"] = "Ordres de la Main d'argent"
--- L["Requires Silver Hand Crusaders order advancement"] = "Requires Silver Hand Crusaders order advancement"
+L["Requires Silver Hand Crusaders order advancement"] = "Requires Silver Hand Crusaders order advancement"
 L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "Croisée Kern <Croisée recruteuse de la Main d'Argent>" -- 120146
 L["Librarian Lightmorne <Seal of Broken Fate Shipment>"] = "Bibliothécaire Lumaurore <Commande de sceau du destin brisé>" -- 112986
--- L["Requires Holy Purpose order advancement"] = "Requires Holy Purpose order advancement"
+L["Requires Holy Purpose order advancement"] = "Requires Holy Purpose order advancement"
 
 -- //////////////////////////
 -- Priest
 -- //////////////////////////
--- L["Command Map"] = "Command Map"
--- L["Altar of Light and Shadow"] = "Altar of Light and Shadow"
+L["Command Map"] = "Command Map"
+L["Altar of Light and Shadow"] = "Altar of Light and Shadow"
 L["Betild Deepanvil <Master Artificer>"] = "Betild Largenclume <Maître artificier>" -- 102709
 L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvesse Bruisse-soir <Gardienne des parchemins>" -- 111738
 L["Meridelle Lightspark <Logistics>"] = "Méridelle Feuzopoudre <Logistique>" -- 112401
@@ -270,14 +271,14 @@ L["Lilith <Armament Supplier>"] = "Lilith <Fournisseuse d’armement>" -- 11059
 L["Light Well"] = "Puits de lumière"
 L["Shadow Well"] = "Puits d’ombre"
 L["Truth <Seal of Broken Fate Shipment>"] = "Vérité <Commande de sceau du destin brisé>" -- 110819
--- L["Requires Blessed Seals order advancement"] = "Requires Blessed Seals order advancement"
+L["Requires Blessed Seals order advancement"] = "Requires Blessed Seals order advancement"
 L["High Priestess Mourn <Recruiter>"] = "Grande prêtresse Sépultre <Recruteuse>" -- 120160
--- L["Requires Hooded Priests order advancement"] = "Requires Hooded Priests order advancement"
+L["Requires Hooded Priests order advancement"] = "Requires Hooded Priests order advancement"
 
 -- //////////////////////////
 -- Rogue
 -- //////////////////////////
--- L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned"
+L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned"
 L["Madam Gosu <Black Market Liaison>"] = "Madame Gosu <Agent de liaison du marché noir>" -- 103791
 L["Lord Jorach Ravenholdt"] = "Seigneur Jorach Ravenholdt" -- 113362
 L["Filius Sparkstache <Archivist>"] = "Filius Étinstache <Archiviste>" -- 102641
@@ -295,18 +296,18 @@ L["Valeera Sanguinar"] = "Valeera Sanguinar" -- 98102
 L["Garona Halforcen"] = "Garona Miorque" -- 94141
 L["Mal <Weapons Smuggler>"] = "Mal <Contrebandier d’armes>" -- 110348
 L["Vanessa VanCleef"] = "Vanessa VanCleef" -- 102550
--- L["Knocker - %s"] = "Knocker - %s"
+L["Knocker - %s"] = "Knocker - %s"
 L["Scythe <Seal of Broken Fate Shipment>"] = "Faux <Commande de sceau du destin brisé>" -- 110820
--- L["Requires Plunder order advancement"] = "Requires Plunder order advancement"
+L["Requires Plunder order advancement"] = "Requires Plunder order advancement"
 L["Laura Stern <Recruiter>"] = "Laura Stern <Recruteuse>" -- 120162
--- L["Requires Ravenholdt's Finest order advancement"] = "Requires Ravenholdt's Finest order advancement"
+L["Requires Ravenholdt's Finest order advancement"] = "Requires Ravenholdt's Finest order advancement"
 L["Mal <Weapons Smuggler>"] = "Mal <Contrebandier d’armes>" -- 110348
 
 -- //////////////////////////
 -- Shaman
 -- //////////////////////////
 L["Maelstrom Pillar"] = "Pilier du Maelström"
--- L["Ancient Elemental Altar"] = "Ancient Elemental Altar"
+L["Ancient Elemental Altar"] = "Ancient Elemental Altar"
 L["Vortex Pinnacle Portal"] = "Portail de la cime du Vortex";
 L["Aggra <Shaman Trainer>"] = "Aggra <Maître des chamans>" -- 99531
 L["Elementalist Janai <Earthen Ring>"] = "Elémentaliste Janai <Cercle terrestre>" -- 109464
@@ -326,11 +327,11 @@ L["Summoner Morn <Elemental Summoner>"] = "Invocateur Morn <Invocateur élémen
 L["Neptulon"] = "Neptulon" -- 106291
 L["Felinda Frye <Earthwarden Recruiter>"] = "Felinda Frye <Recruteuse des garde-terre>" -- 112208
 L["Alexor <The Ascended>"] = "Alexor <L’Ascendant" -- 109829
--- L["Requires \"Rise!\" order advancement"] = "Requires \"Rise!\" order advancement"
+L["Requires \"Rise!\" order advancement"] = "Requires \"Rise!\" order advancement"
 L["Bath'rah the Windwatcher <Seal of Broken Fate Shipment>"] = "Bath’rah la Vigie des vents <Commande de sceau du destin brisé>" -- 112299
--- L["Requires Spirit Walk order advancement"] = "Requires Spirit Walk order advancement"
+L["Requires Spirit Walk order advancement"] = "Requires Spirit Walk order advancement"
 L["Marick Ven <Earthen Ring Protectors Recruiter>"] = "Marick Ven <Recruteur des protecteurs du Cercle terrestre>" -- 120165
--- L["Requires Ring of Earth order advancement"] = "Requires Ring of Earth order advancement"
+L["Requires Ring of Earth order advancement"] = "Requires Ring of Earth order advancement"
 
 -- //////////////////////////
 -- Warlock
@@ -350,10 +351,10 @@ L["Imp Mother Dyala <Recruiter>"] = "Mère des diablotins Dyala <Recruteuse>" --
 L["Archivist Melinda <Class Hall Upgrades>"] = "Archiviste Melinda <Améliorations de domaine de classe>" -- 108018
 L["Murr"] = "Murr" -- 110408
 L["Demonia Pickerin"] = "Démonia Piquerin" -- 113371
--- L["Requires Unleash Infernal order advancement"] = "Requires Unleash Infernal order advancement"
+L["Requires Unleash Infernal order advancement"] = "Requires Unleash Infernal order advancement"
 L["Demonic Phylactery"] = "Phylactère démoniaque"
 L["Galen Foul <Demon Summoner>"] = "Galen Souillure <Invocateur de démons>" -- 120166
--- L["Requires Demonic Brutes order advancement"] = "Requires Demonic Brutes order advancement"
+L["Requires Demonic Brutes order advancement"] = "Requires Demonic Brutes order advancement"
 
 -- //////////////////////////
 -- Warrior
@@ -370,10 +371,10 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Capitaine Hjalmar Stahlstrom <Rec
 L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar le Lanceur de runes <Améliorations de domaine de classe>" -- 107994 
 L["Savyn Valorborn <Recruiter>"] = "Savyn Fierné <Recruteuse>" -- 106460
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Réquisition d’armement>" -- 110437
--- L["Requires Val'kyr Call order advancement"] = "Requires Val'kyr Call order advancement"
+L["Requires Val'kyr Call order advancement"] = "Requires Val'kyr Call order advancement"
 L["Horn of War"] = "Cor de guerre"
 L["Matilda Skoptidottir"] = "Matilda Skoptidottir" -- 111774
--- L["Requires Strike Hard order advancement"] = "Requires Strike Hard order advancement"
+L["Requires Strike Hard order advancement"] = "Requires Strike Hard order advancement"
 L["Sharak Tor <Recruiter>"] = "Sharak Tor <Recruteur>" -- 106461, horde
 L["Matthew Glensorrow <Recruiter>"] = "Matthew Glensorrow <Recruteur>" -- 120077, alliance
 end

@@ -1,19 +1,14 @@
--- $Id$
 -----------------------------------------------------------------------
 -- Upvalued Lua API.
 -----------------------------------------------------------------------
 -- Functions
 local _G = getfenv(0)
 -- Libraries
-local string = _G.string
-local format, gsub = string.format, string.gsub
-local next, wipe, pairs, select, type = next, wipe, pairs, select, type
+local next, pairs, select, type = next, pairs, select, type
 local C_Spell = _G.C_Spell
-local GameTooltip, GetSpellInfo, CreateFrame, UnitClass = _G.GameTooltip, C_Spell.GetSpellInfo, _G.CreateFrame, _G.UnitClass
+local GameTooltip, GetSpellInfo, UnitClass = _G.GameTooltip, C_Spell.GetSpellInfo, _G.UnitClass
 local C_Garrison = _G.C_Garrison
 local GetTalentInfo = C_Garrison.GetTalentInfo
-
---local UIDropDownMenu_CreateInfo, CloseDropDownMenus, UIDropDownMenu_AddButton, ToggleDropDownMenu = L_UIDropDownMenu_CreateInfo, L_CloseDropDownMenus, L_UIDropDownMenu_AddButton, L_ToggleDropDownMenu
 
 local WorldMapTooltip = GameTooltip
 
@@ -310,8 +305,8 @@ function addon:OnInitialize()
 end
 
 function addon:OnEnable()
-	for key, value in pairs( addon.constants.events ) do
-		self:RegisterEvent( value );
+	for _, value in pairs( addon.constants.events ) do
+		self:RegisterEvent( value )
 	end
 end
 

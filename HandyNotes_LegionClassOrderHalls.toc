@@ -21,15 +21,6 @@
 ## Notes-zhCN: 显示职业大厅中主要 NPC 的位置和兴趣点
 ## Title-zhTW: HandyNotes - 軍臨天下職業大廳
 ## Notes-zhTW: 顯示職業大廳中主要 NPC 的位置和興趣點
-## Author: arith
-## Version: @project-version@
-## RequiredDeps: HandyNotes
-## OptionalDeps: LibBabble-SubZone-3.0, !LibUIDropDownMenu
-## DefaultState: enabled
-## SavedVariables: HandyNotes_LegionClassOrderHallsDB
-## X-Date: @project-date-iso@
-## X-License: GPLv2
-## X-Category: Map
 ## Category: Map
 ## Category-deDE: Karte
 ## Category-esES: Mapa
@@ -42,6 +33,18 @@
 ## Category-zhCN: 地图
 ## Category-zhTW: 地圖
 ## IconTexture: Interface\icons\trade_engineering
+## Author: arith
+## Version: @project-version@
+## RequiredDeps: HandyNotes
+## OptionalDeps: LibBabble-SubZone-3.0, !LibUIDropDownMenu
+## DefaultState: enabled
+## SavedVariables: HandyNotes_LegionClassOrderHallsDB
+## X-Website: https://www.curseforge.com/wow/addons/handynotes-legion-class-order-halls
+## X-Date: @project-date-iso@
+## X-License: GPLv2
+## X-Category: Map
+## X-Curse-Project-ID: 265431
+## X-WoWI-ID: 24406
 
 Libs\Libs.xml
 Locale\Locales.xml

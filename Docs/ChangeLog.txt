@@ -1,7 +1,18 @@
-$Id$
-
 Revision History:
 =================
+
+* v1.54 (Oct. 05, 2023)
+-----------------------
+- Update all translations
+- Migrated from CurseForge to GitHub, and added auto-packaging for both CurseForge and WoWInterface
+
+* v1.53 (Sep. 23, 2023)
+-----------------------
+- Fixed issue with talent info retrieval by using C_Garrison.GetTalentInfo instead of C_Garrison.GetTalent
+
+* v1.52 (Sep. 23, 2023)
+-----------------------
+- Toc update to support WoW 12.1.0
 
 * v1.51 (Mar. 20, 2023)
 -----------------------
