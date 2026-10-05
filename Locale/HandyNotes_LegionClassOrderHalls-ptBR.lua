@@ -1,4 +1,5 @@
--- $Id$
+local _G = getfenv(0)
+local LibStub = _G.LibStub
 
 local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_LegionClassOrderHalls", "ptBR", false)
 
@@ -8,65 +9,65 @@ if L then
 -- //////////////////////////
 -- Addon
 -- //////////////////////////
--- L["HandyNotes - Class Order Halls"] = "HandyNotes - Class Order Halls"
--- L["Class Order Halls"] = "Class Order Halls"
--- L["Shows the NPC locations and major POIs in Class Order Halls"] = "Shows the NPC locations and major POIs in Class Order Halls"
+L["HandyNotes - Class Order Halls"] = "HandyNotes - Salões de Classe"
+L["Class Order Halls"] = "Salões de Classe"
+L["Shows the NPC locations and major POIs in Class Order Halls"] = "Mostra os locais dos PNJs e pontos de interesse principais nos Salões de Classe"
 
 -- //////////////////////////
 -- Common
 -- //////////////////////////
--- L["Portal to %s"] = "Portal to %s"
--- L["Training Dummies"] = "Training Dummies"
--- L["Travel to %s"] = "Travel to %s"
--- L["Entrance"] = "Entrance"
--- L["Ramp to lower floor"] = "Ramp to lower floor"
--- L["Ramp to top floor"] = "Ramp to top floor"
--- L["Champion Armaments"] = "Champion Armaments" -- Quest: 44228
--- L["Travel to:"] = "Travel to:"
--- L["Light's Heart"] = "Light's Heart"
--- L["Portal"] = "Portal"
--- L["Artifact Research"] = "Artifact Research"
--- L["Class Hall Quartermaster"] = "Class Hall Quartermaster"
--- L["Seal of Broken Fate"] = "Seal of Broken Fate"
+L["Portal to %s"] = "Portal para %s"
+L["Training Dummies"] = "Bonecos de treinamento"
+L["Travel to %s"] = "Viajar para %s"
+L["Entrance"] = "Entrada"
+L["Ramp to lower floor"] = "Rampa para o andar inferior"
+L["Ramp to top floor"] = "Rampa para o andar superior"
+L["Champion Armaments"] = "Champion Armaments" -- Quest: 44228
+L["Travel to:"] = "Viajar para:"
+L["Light's Heart"] = "Coração da Luz"
+L["Portal"] = "Portal"
+L["Artifact Research"] = "Pesquisa de Artefato"
+L["Class Hall Quartermaster"] = "Intendente do Salão de Classe"
+L["Seal of Broken Fate"] = "Selo do Destino Despedaçado"
 
 -- //////////////////////////
 -- Configs
 -- //////////////////////////
 -- Icon Settings
--- L["These settings control the look and feel of the icon."] = "These settings control the look and feel of the icon."
--- L["Icon settings"] = "Icon settings"
--- L["Icon Scale"] = "Icon Scale"
--- L["The scale of the icons"] = "The scale of the icons"
--- L["Icon Alpha"] = "Icon Alpha"
--- L["The alpha transparency of the icons"] = "The alpha transparency of the icons"
+L["These settings control the look and feel of the icon."] = "These settings control the look and feel of the icon."
+L["Icon settings"] = "Configurações de ícones"
+L["Icon Scale"] = "Escala dos ícones"
+L["The scale of the icons"] = "The scale of the icons"
+L["Icon Alpha"] = "Transparência dos ícones"
+L["The alpha transparency of the icons"] = "The alpha transparency of the icons"
 -- What to Display
--- L["What to display"] = "What to display"
--- L["These settings control what type of icons to be displayed."] = "These settings control what type of icons to be displayed on the WorldMap and Minimap."
--- L["Show the node where you can manage your class hall missions."] = "Show the node where you can manage your class hall missions."
--- L["Show the recruiter's locations."] = "Show the recruiter's locations."
--- L["Show the class hall researcher's location."] = "Show the class hall researcher's location."
--- L["Show the Champion Armaments NPC's location."] = "Show the Champion Armaments NPC's location."
--- L["Show the class hall quartermaster's location."] = "Show the class hall quartermaster's location."
--- L["Show the location of the NPC where you can learn for your class hall upgrade."] = "Show the location of the NPC where you can learn for your class hall upgrade."
--- L["Show the location of your class hall forge where you can manage your artifact power."] = "Show the location of your class hall forge where you can manage your artifact power."
--- L["Show portal's locations."] = "Show portal's locations."
--- L["Show flight master's location."] = "Show flight master's location."
--- L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
--- L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
--- L["Un-researched"] = "Un-researched"
--- L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
--- L["Navigation Console"] = "Navigation Console"
--- L["Show Navigation Console's location in the Vindicaar."] = "Show Navigation Console's location in the Vindicaar."
--- L["Others"] = "Others"
--- L["Show all the other POIs."] = "Show all the other POIs."
+L["What to display"] = "O que mostrar"
+L["These settings control what type of icons to be displayed."] = "These settings control what type of icons to be displayed on the WorldMap and Minimap."
+L["Show the node where you can manage your class hall missions."] = "Show the node where you can manage your class hall missions."
+L["Show the recruiter's locations."] = "Show the recruiter's locations."
+L["Show the class hall researcher's location."] = "Show the class hall researcher's location."
+L["Show the Champion Armaments NPC's location."] = "Show the Champion Armaments NPC's location."
+L["Show the class hall quartermaster's location."] = "Show the class hall quartermaster's location."
+L["Show the location of the NPC where you can learn for your class hall upgrade."] = "Show the location of the NPC where you can learn for your class hall upgrade."
+L["Show the location of your class hall forge where you can manage your artifact power."] = "Show the location of your class hall forge where you can manage your artifact power."
+L["Show portal's locations."] = "Show portal's locations."
+L["Show flight master's location."] = "Show flight master's location."
+L["Show the location of Light's Heart."] = "Show the location of Light's Heart."
+L["Show the location of Seal of Broken Fate vendor."] = "Show the location of Seal of Broken Fate vendor."
+L["Un-researched"] = "Un-researched"
+L["Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."] = "Show all workorder NPCs' locations even the corresponding order hall advancement has not been researched."
+L["Navigation Console"] = "Navigation Console"
+L["Show Navigation Console's location in the Vindicaar."] = "Show Navigation Console's location in the Vindicaar."
+L["Others"] = "Outros"
+L["Show all the other POIs."] = "Show all the other POIs."
 -- AddOn Settings
--- L["AddOn Settings"] = "AddOn Settings"
--- L["Query from server"] = "Query from server"
--- L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."
--- L["Show note"] = "Show note"
--- L["Show the node's additional notes when it's available."] = "Show the node's additional notes when it's available."
--- L["Reset hidden nodes"] = "Reset hidden nodes"
--- L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
+L["AddOn Settings"] = "Configurações do addon"
+L["Query from server"] = "Consultar o servidor"
+L["Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."] = "Send query request to server to lookup localized name. May be a little bit slower for the first time lookup but would be very fast once the name is found and cached."
+L["Show note"] = "Mostrar nota"
+L["Show the node's additional notes when it's available."] = "Show the node's additional notes when it's available."
+L["Reset hidden nodes"] = "Redefinir pontos ocultos"
+L["Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."] = "Show all nodes that you manually hid by right-clicking on them and choosing \"hide\"."
 
 -- //////////////////////////
 -- Death Knight

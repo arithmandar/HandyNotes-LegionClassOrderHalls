@@ -6,16 +6,17 @@ manual-changelog:
     
 enable-nolib-creation: no
 
-externals:
-    Libs-release/LibBabble-SubZone-3.0: 
-        url: https://repos.wowace.com/wow/libbabble-subzone-3-0/trunk
-    Libs-release/LibUIDropDownMenu: 
-        url: https://repos.wowace.com/wow/libuidropdownmenu/trunk/LibUIDropDownMenu
+# configs for WowInterface
+wowi-archive-previous: yes
+wowi-create-changelog: no
 
-move-folders:
-    HandyNotes_LegionClassOrderHalls/Libs: HandyNotes_LegionClassOrderHalls/Libs-dev
-    HandyNotes_LegionClassOrderHalls/Libs-release: HandyNotes_LegionClassOrderHalls/Libs
+externals:
+    Libs/LibBabble-SubZone-3.0: 
+        url: https://repos.curseforge.com/wow/libbabble-subzone-3-0/trunk
+    Libs/LibUIDropDownMenu: 
+        url: https://repos.curseforge.com/wow/libuidropdownmenu/trunk/LibUIDropDownMenu
+
+
 ignore:
     - Images/PSD
-    - Libs-dev
 
