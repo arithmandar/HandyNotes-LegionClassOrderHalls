@@ -1,4 +1,4 @@
-﻿## Interface: 120100
+﻿## Interface: 120105
 ## Title: HandyNotes - Legion Class Order Halls
 ## Notes: Shows major NPC locations and points of interest in Class Order Halls
 ## Title-deDE: HandyNotes – Klassenordenshallen von Legion
